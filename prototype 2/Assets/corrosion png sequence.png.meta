@@ -1,0 +1,1267 @@
+fileFormatVersion: 2
+guid: a4853c03a1234b34e8a0d4da96593d31
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7432621026242640535
+    second: corrosion png sequence_0
+  - first:
+      213: 2790006500237164569
+    second: corrosion png sequence_1
+  - first:
+      213: -2934703143277856216
+    second: corrosion png sequence_2
+  - first:
+      213: -4645790328834757846
+    second: corrosion png sequence_3
+  - first:
+      213: -2160961520279729074
+    second: corrosion png sequence_4
+  - first:
+      213: -1431326621754457783
+    second: corrosion png sequence_5
+  - first:
+      213: -6600274742639731630
+    second: corrosion png sequence_6
+  - first:
+      213: 5019328428707602492
+    second: corrosion png sequence_7
+  - first:
+      213: -8202833850048854881
+    second: corrosion png sequence_8
+  - first:
+      213: 975215544249563424
+    second: corrosion png sequence_9
+  - first:
+      213: -16759536674977348
+    second: corrosion png sequence_10
+  - first:
+      213: 5776512760730921045
+    second: corrosion png sequence_11
+  - first:
+      213: 1646824350594941012
+    second: corrosion png sequence_12
+  - first:
+      213: -3543825797964954006
+    second: corrosion png sequence_13
+  - first:
+      213: 3161035901151312660
+    second: corrosion png sequence_14
+  - first:
+      213: 9151230709446490766
+    second: corrosion png sequence_15
+  - first:
+      213: 131696685255643321
+    second: corrosion png sequence_16
+  - first:
+      213: 2500318322862088742
+    second: corrosion png sequence_17
+  - first:
+      213: 3707033589489656645
+    second: corrosion png sequence_18
+  - first:
+      213: 7165814457390759970
+    second: corrosion png sequence_19
+  - first:
+      213: 3305385014713638381
+    second: corrosion png sequence_20
+  - first:
+      213: 7613964158857602745
+    second: corrosion png sequence_21
+  - first:
+      213: -5128128999275253251
+    second: corrosion png sequence_22
+  - first:
+      213: 6168769250169062476
+    second: corrosion png sequence_23
+  - first:
+      213: 8283256943737190991
+    second: corrosion png sequence_24
+  - first:
+      213: 5452858679444376896
+    second: corrosion png sequence_25
+  - first:
+      213: 5134930080642982606
+    second: corrosion png sequence_26
+  - first:
+      213: -3975209449267366997
+    second: corrosion png sequence_27
+  - first:
+      213: 9192263343040097333
+    second: corrosion png sequence_28
+  - first:
+      213: 8712497928704805978
+    second: corrosion png sequence_29
+  - first:
+      213: 8784743434444690639
+    second: corrosion png sequence_30
+  - first:
+      213: 1063477306419640172
+    second: corrosion png sequence_31
+  - first:
+      213: -4117891580160995936
+    second: corrosion png sequence_32
+  - first:
+      213: 3959344642035397027
+    second: corrosion png sequence_33
+  - first:
+      213: 1113921091195837166
+    second: corrosion png sequence_34
+  - first:
+      213: -1241550262784800343
+    second: corrosion png sequence_35
+  - first:
+      213: 2564945731654394433
+    second: corrosion png sequence_36
+  - first:
+      213: 4669654001671445753
+    second: corrosion png sequence_37
+  - first:
+      213: 2024727058581470407
+    second: corrosion png sequence_38
+  - first:
+      213: -3438351638695717870
+    second: corrosion png sequence_39
+  - first:
+      213: 7886568040776724015
+    second: corrosion png sequence_40
+  - first:
+      213: 4708725281866351866
+    second: corrosion png sequence_41
+  - first:
+      213: -9209916132439935335
+    second: corrosion png sequence_42
+  - first:
+      213: 5775254305276906907
+    second: corrosion png sequence_43
+  - first:
+      213: 6284619593837531714
+    second: corrosion png sequence_44
+  - first:
+      213: 2423726250003328589
+    second: corrosion png sequence_45
+  - first:
+      213: -7729957677710192259
+    second: corrosion png sequence_46
+  - first:
+      213: -4695063687549719714
+    second: corrosion png sequence_47
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: corrosion png sequence_0
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 5653
+        width: 320
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e295b8a892f0c4eaaffcf7e677f0f2
+      internalID: -7432621026242640535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_1
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 5653
+        width: 320
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9e0200c041f4b4a984fc5f45b4b609
+      internalID: 2790006500237164569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_2
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 5654
+        width: 320
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fc794bf20ab574591fc498f917d34d
+      internalID: -2934703143277856216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_3
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 5655
+        width: 320
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e7ea0134e672d418b19d314e39a871
+      internalID: -4645790328834757846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_4
+      rect:
+        serializedVersion: 2
+        x: 4736
+        y: 5655
+        width: 320
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e696c2bc95f0fe84f8696cae9b4a562a
+      internalID: -2160961520279729074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 5043
+        width: 317
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6f5f364bfda6b4aa325fa8fde195fa
+      internalID: -1431326621754457783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_6
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 5043
+        width: 314
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70ae6245b6f4f04593115a791742658
+      internalID: -6600274742639731630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_7
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 5043
+        width: 314
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202b9f7c14e250049bbcf4b98e873369
+      internalID: 5019328428707602492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_8
+      rect:
+        serializedVersion: 2
+        x: 3651
+        y: 5043
+        width: 314
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3930d2d219fa0d44b58482d69cc628c
+      internalID: -8202833850048854881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_9
+      rect:
+        serializedVersion: 2
+        x: 4739
+        y: 5044
+        width: 314
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89636bb209eedae408747ec76ce510f9
+      internalID: 975215544249563424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_10
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 4433
+        width: 314
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2eb058d24f8a140879570e0fa4b5d0
+      internalID: -16759536674977348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_11
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 4433
+        width: 314
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bfa3c473f14c94ba58b0470615920d
+      internalID: 5776512760730921045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_12
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 4433
+        width: 314
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4b455575e32cc44819b62a907e523d
+      internalID: 1646824350594941012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_13
+      rect:
+        serializedVersion: 2
+        x: 3651
+        y: 4433
+        width: 314
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c150d1dd325fc284b8f88d1bfc34cd83
+      internalID: -3543825797964954006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_14
+      rect:
+        serializedVersion: 2
+        x: 4739
+        y: 4433
+        width: 314
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680226fd4e5256046bddcb45a9d214da
+      internalID: 3161035901151312660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_15
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 3824
+        width: 311
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f5bb5e1d7970a49afcbc52d9e7c2f1
+      internalID: 9151230709446490766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_16
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 3824
+        width: 308
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8541c552f78f43246a9b75d9e3755eb2
+      internalID: 131696685255643321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_17
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 3824
+        width: 308
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b21e0f1095737949b21d52425e48739
+      internalID: 2500318322862088742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_18
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 3824
+        width: 308
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cea21f44112d743a594d3df550c185
+      internalID: 3707033589489656645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_19
+      rect:
+        serializedVersion: 2
+        x: 4742
+        y: 3824
+        width: 308
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8c9768800782348ae1f226dbfb40d7
+      internalID: 7165814457390759970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_20
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 3211
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21e8a106d5581a44b12ae755831b05b
+      internalID: 3305385014713638381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_21
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 3211
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35899344772f6b04f80237129eef3913
+      internalID: 7613964158857602745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_22
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 3212
+        width: 308
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edb980797a6b624b9a107b6e0a269a5
+      internalID: -5128128999275253251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_23
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 3214
+        width: 308
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f11bbeb5cfcd2644ab4a6f4d00acc0b
+      internalID: 6168769250169062476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_24
+      rect:
+        serializedVersion: 2
+        x: 4742
+        y: 3214
+        width: 308
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bd37b52701f8e4eb6f6ce04fd3a48c
+      internalID: 8283256943737190991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_25
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 2601
+        width: 308
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a0563fe3ce4ee4e90a33ab9ff3f4d3
+      internalID: 5452858679444376896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_26
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 2601
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771e6bdf523b77f4d8b9f34b6c2530df
+      internalID: 5134930080642982606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_27
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 2601
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e14f7bc84c1acb409ec8ed547c86546
+      internalID: -3975209449267366997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_28
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 2601
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f29190334ac48e49a7f2ae1f04ad197
+      internalID: 9192263343040097333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_29
+      rect:
+        serializedVersion: 2
+        x: 4742
+        y: 2601
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93906a9a3880084cb161639fa7c7f0e
+      internalID: 8712497928704805978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_30
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1989
+        width: 308
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005576fa5719c5d41a16aeab2730f76f
+      internalID: 8784743434444690639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_31
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1989
+        width: 308
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ba36d25bae8ef4e8b85405ef95c8f4
+      internalID: 1063477306419640172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_32
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 1989
+        width: 308
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62e0f124770dd84aa264e9888666557
+      internalID: -4117891580160995936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_33
+      rect:
+        serializedVersion: 2
+        x: 3651
+        y: 1986
+        width: 311
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac3b92a62f2b894ba924149cb6d98f3
+      internalID: 3959344642035397027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_34
+      rect:
+        serializedVersion: 2
+        x: 4739
+        y: 1986
+        width: 314
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1159d970d4b0f42ba7e88d091e7e3f
+      internalID: 1113921091195837166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_35
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1373
+        width: 314
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a23a431b3187a4b9b94fc09875a928
+      internalID: -1241550262784800343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_36
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1373
+        width: 314
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6698e967364dd4249a27140bb539f5b3
+      internalID: 2564945731654394433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_37
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 1373
+        width: 314
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae26fb12139681f4da2934aad51efc3d
+      internalID: 4669654001671445753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_38
+      rect:
+        serializedVersion: 2
+        x: 3651
+        y: 1373
+        width: 314
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199606114193abc46aa5c4d61e1ee32f
+      internalID: 2024727058581470407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_39
+      rect:
+        serializedVersion: 2
+        x: 4739
+        y: 1373
+        width: 314
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b72f5cc9f21fc24db12d6edded3a6ee
+      internalID: -3438351638695717870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_40
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 761
+        width: 314
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5147821ac08be2a40b358c120eb3278f
+      internalID: 7886568040776724015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_41
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 761
+        width: 314
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7619ac75a8b8534a8348947a3fe18e9
+      internalID: 4708725281866351866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_42
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 761
+        width: 314
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ceef3a6113f6143bd2885197a85841
+      internalID: -9209916132439935335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_43
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 761
+        width: 317
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e8642aef795254da7e5ede0a7c7d46
+      internalID: 5775254305276906907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_44
+      rect:
+        serializedVersion: 2
+        x: 4736
+        y: 761
+        width: 320
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2b819e3ced2194ab1f567e9053db3c
+      internalID: 6284619593837531714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 148
+        width: 320
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf33ced74b97c8c4480dd66193e9c540
+      internalID: 2423726250003328589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_46
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 148
+        width: 320
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdf9c19313a72a40a52297398a5f17c
+      internalID: -7729957677710192259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corrosion png sequence_47
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 145
+        width: 320
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a5fc8b9797e994483412bae6f86db1
+      internalID: -4695063687549719714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
