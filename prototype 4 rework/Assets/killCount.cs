@@ -19,6 +19,7 @@ public class killCount : MonoBehaviour
     void Update()
     {
         text.text = "Kills: " + score;
+        PlayerPrefs.SetInt("killsCommitted", score);
     }
 
     void OnDestroy()
