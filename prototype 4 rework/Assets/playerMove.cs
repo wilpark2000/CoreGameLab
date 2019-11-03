@@ -6,10 +6,12 @@ public class playerMove : MonoBehaviour
 {
     public float speed;
     Rigidbody2D rb;
+    BoxCollider2D collide;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        collide = GetComponent<BoxCollider2D>();
     }
 
     private void FixedUpdate()
