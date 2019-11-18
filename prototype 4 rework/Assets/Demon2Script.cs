@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Demon2Script : MonoBehaviour
 {
-     public float speed;
+    public float speed;
     private Transform target;
     float dist;
     BoxCollider2D collide;

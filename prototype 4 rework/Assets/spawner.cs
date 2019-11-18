@@ -25,23 +25,23 @@ public class spawner : MonoBehaviour
     {
         kills = (int)PlayerPrefs.GetInt("killsCommitted");
         Timer -= Time.deltaTime;
-        if (Timer <= 0 && kills <= 5)
+        if (Timer <= 0 && kills <= 25)
         {
             demonClone = Instantiate(demons, transform.position, transform.rotation) as GameObject;
             Timer = Random.Range(randomMin, randomMax);
         }
 
-        if (Timer <= 0 && kills <= 12 && kills >= 6)
+        if (Timer <= 0 && kills <= 50 && kills >= 26)
         {
             demonClone = Instantiate(demons, transform.position, transform.rotation) as GameObject;
-            Timer = Random.Range(4.5f, 6);
+            Timer = Random.Range(5.5f, 7f);
         }
 
         timer2 -= Time.deltaTime;
-        if (timer2 <= 0 && kills <= 12 && kills >= 6)
+        if (timer2 <= 0 && kills <= 50 && kills >= 26)
         {
-            demonClone = Instantiate(demonPrefabs[0], transform.position, transform.rotation) as GameObject;
-            timer2 = Random.Range(6, 8.5f);
+            demonClone = Instantiate(demonPrefabs[1], transform.position, Quaternion.identity) as GameObject;
+            timer2 = Random.Range(7, 9f);
         }
     }
 }
