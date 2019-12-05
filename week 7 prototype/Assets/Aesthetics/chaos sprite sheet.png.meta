@@ -1,0 +1,2491 @@
+fileFormatVersion: 2
+guid: 74961b8c2a8d42541b43e234e9990c9f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3137070726567848171
+    second: chaos sprite sheet_0
+  - first:
+      213: -5847838162241386740
+    second: chaos sprite sheet_1
+  - first:
+      213: -8266119969326520427
+    second: chaos sprite sheet_2
+  - first:
+      213: -388409440119916251
+    second: chaos sprite sheet_3
+  - first:
+      213: 6542992434608870269
+    second: chaos sprite sheet_4
+  - first:
+      213: -765342335720958250
+    second: chaos sprite sheet_5
+  - first:
+      213: 8642601623004451255
+    second: chaos sprite sheet_6
+  - first:
+      213: 6632275774800999658
+    second: chaos sprite sheet_7
+  - first:
+      213: 8094136773116725673
+    second: chaos sprite sheet_8
+  - first:
+      213: 3024998761074652116
+    second: chaos sprite sheet_9
+  - first:
+      213: 4918358556351356622
+    second: chaos sprite sheet_10
+  - first:
+      213: 2962053720232680370
+    second: chaos sprite sheet_11
+  - first:
+      213: -3805914431684856239
+    second: chaos sprite sheet_12
+  - first:
+      213: -1189310629919131071
+    second: chaos sprite sheet_13
+  - first:
+      213: 3125901316254150024
+    second: chaos sprite sheet_14
+  - first:
+      213: 863932160474558035
+    second: chaos sprite sheet_15
+  - first:
+      213: 7735928891459777565
+    second: chaos sprite sheet_16
+  - first:
+      213: -3716766375204624169
+    second: chaos sprite sheet_17
+  - first:
+      213: -5372937548139323692
+    second: chaos sprite sheet_18
+  - first:
+      213: -1443187518104000894
+    second: chaos sprite sheet_19
+  - first:
+      213: -3882846009224576275
+    second: chaos sprite sheet_20
+  - first:
+      213: -2144101026251725970
+    second: chaos sprite sheet_21
+  - first:
+      213: -6573142745494613740
+    second: chaos sprite sheet_22
+  - first:
+      213: 5311341096634753634
+    second: chaos sprite sheet_23
+  - first:
+      213: 5054457543211533604
+    second: chaos sprite sheet_24
+  - first:
+      213: -7883549916118908324
+    second: chaos sprite sheet_25
+  - first:
+      213: -4978436194883695770
+    second: chaos sprite sheet_26
+  - first:
+      213: -5789048834756028846
+    second: chaos sprite sheet_27
+  - first:
+      213: -4718970263918864874
+    second: chaos sprite sheet_28
+  - first:
+      213: 2089483719166059201
+    second: chaos sprite sheet_29
+  - first:
+      213: 2987880090758318756
+    second: chaos sprite sheet_30
+  - first:
+      213: 7895101994071116533
+    second: chaos sprite sheet_31
+  - first:
+      213: -3404785057218214522
+    second: chaos sprite sheet_32
+  - first:
+      213: 6079356632702152251
+    second: chaos sprite sheet_33
+  - first:
+      213: 2534335473312804583
+    second: chaos sprite sheet_34
+  - first:
+      213: 7529643548320764710
+    second: chaos sprite sheet_35
+  - first:
+      213: -2128608343719752687
+    second: chaos sprite sheet_36
+  - first:
+      213: -4581006218632522692
+    second: chaos sprite sheet_37
+  - first:
+      213: 7289476383884519964
+    second: chaos sprite sheet_38
+  - first:
+      213: -8260645121071143422
+    second: chaos sprite sheet_39
+  - first:
+      213: -3470785762006198980
+    second: chaos sprite sheet_40
+  - first:
+      213: 4217661572821306595
+    second: chaos sprite sheet_41
+  - first:
+      213: -4887874922823365745
+    second: chaos sprite sheet_42
+  - first:
+      213: -8315280159606500103
+    second: chaos sprite sheet_43
+  - first:
+      213: 1577177803884569268
+    second: chaos sprite sheet_44
+  - first:
+      213: -4175943382696015680
+    second: chaos sprite sheet_45
+  - first:
+      213: 6845594037993439415
+    second: chaos sprite sheet_46
+  - first:
+      213: 112539110904661982
+    second: chaos sprite sheet_47
+  - first:
+      213: -174780518571386601
+    second: chaos sprite sheet_48
+  - first:
+      213: -2536024335347774326
+    second: chaos sprite sheet_49
+  - first:
+      213: 6761770344850196972
+    second: chaos sprite sheet_50
+  - first:
+      213: 996141793278890552
+    second: chaos sprite sheet_51
+  - first:
+      213: 202788468899972911
+    second: chaos sprite sheet_52
+  - first:
+      213: -5473520245044911240
+    second: chaos sprite sheet_53
+  - first:
+      213: -8066743603401451507
+    second: chaos sprite sheet_54
+  - first:
+      213: 607418232471541448
+    second: chaos sprite sheet_55
+  - first:
+      213: -5962832216780044365
+    second: chaos sprite sheet_56
+  - first:
+      213: 2792114733236739416
+    second: chaos sprite sheet_57
+  - first:
+      213: -6903020442654844563
+    second: chaos sprite sheet_58
+  - first:
+      213: 2606612925799493986
+    second: chaos sprite sheet_59
+  - first:
+      213: -5199482695904054488
+    second: chaos sprite sheet_60
+  - first:
+      213: -8485967962841857880
+    second: chaos sprite sheet_61
+  - first:
+      213: -8794214841612975850
+    second: chaos sprite sheet_62
+  - first:
+      213: 3131185118235215397
+    second: chaos sprite sheet_63
+  - first:
+      213: 1135893955832694212
+    second: chaos sprite sheet_64
+  - first:
+      213: -5372094661059198199
+    second: chaos sprite sheet_65
+  - first:
+      213: 7936903869579375634
+    second: chaos sprite sheet_66
+  - first:
+      213: -6529638911230634812
+    second: chaos sprite sheet_67
+  - first:
+      213: 3052735883097339491
+    second: chaos sprite sheet_68
+  - first:
+      213: -8306951995781699125
+    second: chaos sprite sheet_69
+  - first:
+      213: -8522145173172633359
+    second: chaos sprite sheet_70
+  - first:
+      213: -4940247919724192004
+    second: chaos sprite sheet_71
+  - first:
+      213: 4096146007403684325
+    second: chaos sprite sheet_72
+  - first:
+      213: -2244379397637661026
+    second: chaos sprite sheet_73
+  - first:
+      213: 5312609042080562769
+    second: chaos sprite sheet_74
+  - first:
+      213: -1758990300455844992
+    second: chaos sprite sheet_75
+  - first:
+      213: -2225721444487421333
+    second: chaos sprite sheet_76
+  - first:
+      213: 5573897374308981180
+    second: chaos sprite sheet_77
+  - first:
+      213: -9193852662032462087
+    second: chaos sprite sheet_78
+  - first:
+      213: 4641506331361456681
+    second: chaos sprite sheet_79
+  - first:
+      213: -966607293680075003
+    second: chaos sprite sheet_80
+  - first:
+      213: 5044036479173897369
+    second: chaos sprite sheet_81
+  - first:
+      213: 5279143982314550705
+    second: chaos sprite sheet_82
+  - first:
+      213: 6306025524371288962
+    second: chaos sprite sheet_83
+  - first:
+      213: -795839649966458079
+    second: chaos sprite sheet_84
+  - first:
+      213: -3636633332640154443
+    second: chaos sprite sheet_85
+  - first:
+      213: -8320758311553275473
+    second: chaos sprite sheet_86
+  - first:
+      213: -2499692305144876895
+    second: chaos sprite sheet_87
+  - first:
+      213: -731493675242742029
+    second: chaos sprite sheet_88
+  - first:
+      213: -4207736653347516142
+    second: chaos sprite sheet_89
+  - first:
+      213: 2432334372886100062
+    second: chaos sprite sheet_90
+  - first:
+      213: 530276491985503981
+    second: chaos sprite sheet_91
+  - first:
+      213: -1375477569216499777
+    second: chaos sprite sheet_92
+  - first:
+      213: -8583857320931372251
+    second: chaos sprite sheet_93
+  - first:
+      213: 687284144911639842
+    second: chaos sprite sheet_94
+  - first:
+      213: 6196441312639863465
+    second: chaos sprite sheet_95
+  - first:
+      213: -3185133979042270648
+    second: chaos sprite sheet_96
+  - first:
+      213: -241280121798576202
+    second: chaos sprite sheet_97
+  - first:
+      213: -6194385676898158750
+    second: chaos sprite sheet_98
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chaos sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802964f8ac5ca3c4da33d41a4e49f445
+      internalID: 3137070726567848171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988c33731b507d7449f9c9e5d8456e97
+      internalID: -5847838162241386740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5d0f7c820be2e4cacde9869ace2ec3
+      internalID: -8266119969326520427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ed80a47c556c645868186e131397f9
+      internalID: -388409440119916251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de54852541da70443b518da386206492
+      internalID: 6542992434608870269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080690bcf8ed81d429a3b694870f3b71
+      internalID: -765342335720958250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd79440239c28a344b3b6f71bc041032
+      internalID: 8642601623004451255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77917fe3dc33b3b4294d47e0327fda46
+      internalID: 6632275774800999658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9f14f1e0e87a147ae41d3afff0ab47
+      internalID: 8094136773116725673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8be5a1b84caab4c8c83c17cf8666f8
+      internalID: 3024998761074652116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11164f5a45237164b857c27802ca575b
+      internalID: 4918358556351356622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43729ec32c14b8b40a7da1608016994a
+      internalID: 2962053720232680370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8debcfc7a74f4934a90a4ada0cecb9ae
+      internalID: -3805914431684856239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4447f77589e377247b1b08d18a85d27a
+      internalID: -1189310629919131071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e02ff9352bbce4ba7ffac7297102a9
+      internalID: 3125901316254150024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c918f945529215149a9bd53726eefc3a
+      internalID: 863932160474558035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b067358ba4fadb4392ef2a387057b76
+      internalID: 7735928891459777565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b541b5d35860c4ea2d80d93a62ec73
+      internalID: -3716766375204624169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dca05718aa14242972e0b76c20a9a1
+      internalID: -5372937548139323692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1751eb4d1db8fb24e9e54e539c8aea5d
+      internalID: -1443187518104000894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b72ae0acac99148807234f7cb535b3
+      internalID: -3882846009224576275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52193decbee84cb49a3dcae32a7225f1
+      internalID: -2144101026251725970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6887b82a569c01549869d2a432108e36
+      internalID: -6573142745494613740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec3d10d6672ae444bc38f4222586707
+      internalID: 5311341096634753634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c267c0da8de16914bb07e56a63389cd9
+      internalID: 5054457543211533604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e95fa88b5f6c3e429f3f0abae17a921
+      internalID: -7883549916118908324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbe79ddb1678ce429a8a9809c1fac53
+      internalID: -4978436194883695770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd89d0e69c0e224dbf6a6903c3d8985
+      internalID: -5789048834756028846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3537ce5616232b4a90e3760646b9353
+      internalID: -4718970263918864874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc18985fc9763494faa2d8fa912689a0
+      internalID: 2089483719166059201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4d5f6bc22e6a24eb2347e80755a662
+      internalID: 2987880090758318756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_31
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a14af6d2a0d63a4788cbf9194eb4e53
+      internalID: 7895101994071116533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_32
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c9193a4fb09644f941702e8627238c
+      internalID: -3404785057218214522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_33
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8a1e21c3a4ca143970bdbfe8aedc80
+      internalID: 6079356632702152251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_34
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64bee8fed876c645b68acc69acfb1e2
+      internalID: 2534335473312804583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_35
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef91b87fc3077442a26809a27e79255
+      internalID: 7529643548320764710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_36
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fe099fc370fe647b2ac0e2e3b5b255
+      internalID: -2128608343719752687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_37
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd32e3e74e83a1346bab119c1f6cd2e7
+      internalID: -4581006218632522692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_38
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f621c316d65be594eb596001cf62d006
+      internalID: 7289476383884519964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905693c6409fd5d49be8e938b6ac9ef1
+      internalID: -8260645121071143422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d22518ce4fcb345ae9f4e79b008c95
+      internalID: -3470785762006198980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_41
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6f9fa7bbb2dbe4eb57c297ea223cde
+      internalID: 4217661572821306595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_42
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fb856bd8873944bbd73e5d3c2bf4b4
+      internalID: -4887874922823365745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_43
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4bd9966e278754c8544e6395f48204
+      internalID: -8315280159606500103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_44
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48be4f83d7349d04ab369e46a6ce88ed
+      internalID: 1577177803884569268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_45
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328dfee943b8b68419a569a8cbb2bb1a
+      internalID: -4175943382696015680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_46
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f6cfc5958c09847b584081d5e9e107
+      internalID: 6845594037993439415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_47
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923c4e6cbd76b6a468e8c13c6da84b92
+      internalID: 112539110904661982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_48
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6837516b86683a64182f2d8618952398
+      internalID: -174780518571386601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7dc79fe515b2c4c8269eda32c78b21
+      internalID: -2536024335347774326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bc62265aaee5a42842e4d28ee2a947
+      internalID: 6761770344850196972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_51
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921b3e0abaa374d418f90c6fdacf2a85
+      internalID: 996141793278890552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_52
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1182d0a442496ed4fbc2346908ff6892
+      internalID: 202788468899972911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_53
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c08975a83f541742aa0fdfa898540e8
+      internalID: -5473520245044911240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_54
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17beeaa21d953164f99736ce9856a84c
+      internalID: -8066743603401451507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_55
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c27f338f2b7634591a3a5c16667217
+      internalID: 607418232471541448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_56
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a459d881d9556864cb7dc15fcb2f05ec
+      internalID: -5962832216780044365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_57
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf61599f4845444b998469c0260c4f7
+      internalID: 2792114733236739416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_58
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56f98a71643d28419aafc9d9048fd17
+      internalID: -6903020442654844563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4aab13c7daf602428bc66190f1655d2
+      internalID: 2606612925799493986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e60f3c493767449b7b1204a008f486
+      internalID: -5199482695904054488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_61
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f532df8fea3cb4997ed171a0868bbd
+      internalID: -8485967962841857880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_62
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74bd326f325b584c93ee3f11b74aa16
+      internalID: -8794214841612975850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_63
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0528317523683b74b9747e4cfac2b410
+      internalID: 3131185118235215397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_64
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadfe394c79d13d419a7139bdafaff8c
+      internalID: 1135893955832694212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_65
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22425e5fdc579cd4b83bda394935121f
+      internalID: -5372094661059198199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_66
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa14b6211099544b97a6141d66d249b
+      internalID: 7936903869579375634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_67
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bb89734ff2b2d44b96b1a9c3b9695b
+      internalID: -6529638911230634812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_68
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8389729d1c8634e86edf2499962a69
+      internalID: 3052735883097339491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33492e829debfff4c816d31fc31c6c1f
+      internalID: -8306951995781699125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_70
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131d367578de07a45bd22871f1af4b89
+      internalID: -8522145173172633359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_71
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e3055c3ec65fb44ae3b15882bfaf22
+      internalID: -4940247919724192004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_72
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61aee527496025e4da3fda072f651b2f
+      internalID: 4096146007403684325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_73
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fe390463193814c95eb21b33f5e04d
+      internalID: -2244379397637661026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_74
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92302e62c16c674b957199ac6941e40
+      internalID: 5312609042080562769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_75
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9399c3a325a5cd74da2da9bac8417b8c
+      internalID: -1758990300455844992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_76
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49d8bc4ffae6884f8909e244c48a2f8
+      internalID: -2225721444487421333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_77
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db94b47b7ec117a4e83dfab11f383b41
+      internalID: 5573897374308981180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_78
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32c55f1070098e4eb4bdbac261f4aba
+      internalID: -9193852662032462087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bdc84e84cd4ce4c8ad860101e34cd9
+      internalID: 4641506331361456681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_80
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23315fb759d2f04392bd083fe9e384c
+      internalID: -966607293680075003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_81
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c88a6a54ba5df5418028955dd65dfde
+      internalID: 5044036479173897369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_82
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ee7e9432266e8409542e13291c9cab
+      internalID: 5279143982314550705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_83
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4ac23e1c3e5ac4c84ea19b614720b2
+      internalID: 6306025524371288962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_84
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f4a0610eb86fe4dba4feb9bdff0c03
+      internalID: -795839649966458079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_85
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550b844fcc987f24db15982e6d3ccad5
+      internalID: -3636633332640154443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_86
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb118cbd2dcf93b47ad168d5989768b0
+      internalID: -8320758311553275473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_87
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691da2392c26d4e47becf9001572c4de
+      internalID: -2499692305144876895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_88
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2caea9f726595448f055f490e74540
+      internalID: -731493675242742029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f971df0a6adcc745aace6e6ad47c584
+      internalID: -4207736653347516142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_90
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81a293dda1233543ad955df3e699999
+      internalID: 2432334372886100062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_91
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0ddd9e604d59944be12b390e22da6f
+      internalID: 530276491985503981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_92
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05062c112de008c4384638468b1b9c50
+      internalID: -1375477569216499777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_93
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9d295ead4e00f4eb615ca70794737f
+      internalID: -8583857320931372251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_94
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff73735480a6eae43b079b99300adf3b
+      internalID: 687284144911639842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_95
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf14e4dde1c0ed4cbff305a5d0b9ddc
+      internalID: 6196441312639863465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_96
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a922ef7cbe394f547a8e35115e17b9b2
+      internalID: -3185133979042270648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_97
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d54b0910864fcc49b38809945aea587
+      internalID: -241280121798576202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaos sprite sheet_98
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a2d47fd898d7c4c8884eac6d89bc7d
+      internalID: -6194385676898158750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

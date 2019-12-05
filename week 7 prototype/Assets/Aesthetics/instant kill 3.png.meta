@@ -1,0 +1,2611 @@
+fileFormatVersion: 2
+guid: faf2b79ee550d7d429f01dcf3b4fce02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6957000435570358025
+    second: instant kill 3_0
+  - first:
+      213: 1188768722039415505
+    second: instant kill 3_1
+  - first:
+      213: -426198399951927717
+    second: instant kill 3_2
+  - first:
+      213: -3232795275433781608
+    second: instant kill 3_3
+  - first:
+      213: 2437377001514199459
+    second: instant kill 3_4
+  - first:
+      213: -5411324510244470156
+    second: instant kill 3_5
+  - first:
+      213: -6333700584520856181
+    second: instant kill 3_6
+  - first:
+      213: 8801677859947601640
+    second: instant kill 3_7
+  - first:
+      213: 3541928429615824614
+    second: instant kill 3_8
+  - first:
+      213: 7459825631024271836
+    second: instant kill 3_9
+  - first:
+      213: 5018522047656033308
+    second: instant kill 3_10
+  - first:
+      213: -648026077911119454
+    second: instant kill 3_11
+  - first:
+      213: -1824580966527665889
+    second: instant kill 3_12
+  - first:
+      213: -3630509947313231521
+    second: instant kill 3_13
+  - first:
+      213: 5348115910054126625
+    second: instant kill 3_14
+  - first:
+      213: 7756362877450168067
+    second: instant kill 3_15
+  - first:
+      213: 2370869241940999717
+    second: instant kill 3_16
+  - first:
+      213: -4094440472737301735
+    second: instant kill 3_17
+  - first:
+      213: 1670061463194497950
+    second: instant kill 3_18
+  - first:
+      213: 7816081629187804346
+    second: instant kill 3_19
+  - first:
+      213: 96985230847501798
+    second: instant kill 3_20
+  - first:
+      213: -5277776426979346429
+    second: instant kill 3_21
+  - first:
+      213: 9175032021739916729
+    second: instant kill 3_22
+  - first:
+      213: 8743191932801871031
+    second: instant kill 3_23
+  - first:
+      213: -2324445417747228325
+    second: instant kill 3_24
+  - first:
+      213: 653210239723379253
+    second: instant kill 3_25
+  - first:
+      213: -3076306840749832629
+    second: instant kill 3_26
+  - first:
+      213: -3894033177680160078
+    second: instant kill 3_27
+  - first:
+      213: -8102139241939202109
+    second: instant kill 3_28
+  - first:
+      213: -2570717983612707749
+    second: instant kill 3_29
+  - first:
+      213: -405415770244838226
+    second: instant kill 3_30
+  - first:
+      213: 6063998346037284014
+    second: instant kill 3_31
+  - first:
+      213: -1035481834784271431
+    second: instant kill 3_32
+  - first:
+      213: 8246272750269244952
+    second: instant kill 3_33
+  - first:
+      213: 1039649335821218684
+    second: instant kill 3_34
+  - first:
+      213: 36287314517559879
+    second: instant kill 3_35
+  - first:
+      213: 9132210965430586817
+    second: instant kill 3_36
+  - first:
+      213: 6025454063224805004
+    second: instant kill 3_37
+  - first:
+      213: -7356924943221356714
+    second: instant kill 3_38
+  - first:
+      213: 340867539812993906
+    second: instant kill 3_39
+  - first:
+      213: 7305280939489104156
+    second: instant kill 3_40
+  - first:
+      213: 1710728769609738473
+    second: instant kill 3_41
+  - first:
+      213: 3549930066665784931
+    second: instant kill 3_42
+  - first:
+      213: -6799321025230986571
+    second: instant kill 3_43
+  - first:
+      213: 6545681564240832079
+    second: instant kill 3_44
+  - first:
+      213: 5220308230916011019
+    second: instant kill 3_45
+  - first:
+      213: -3870147317850075178
+    second: instant kill 3_46
+  - first:
+      213: -3719917899982054253
+    second: instant kill 3_47
+  - first:
+      213: 3104769118209899972
+    second: instant kill 3_48
+  - first:
+      213: -2344717692842738013
+    second: instant kill 3_49
+  - first:
+      213: -6539783015205550642
+    second: instant kill 3_50
+  - first:
+      213: -9075231222588171484
+    second: instant kill 3_51
+  - first:
+      213: 1872145911595990103
+    second: instant kill 3_52
+  - first:
+      213: -7717429242461566228
+    second: instant kill 3_53
+  - first:
+      213: 641740228272910684
+    second: instant kill 3_54
+  - first:
+      213: 4423650562210934866
+    second: instant kill 3_55
+  - first:
+      213: 4706778187954510669
+    second: instant kill 3_56
+  - first:
+      213: 162039595888112244
+    second: instant kill 3_57
+  - first:
+      213: 6780872613652440069
+    second: instant kill 3_58
+  - first:
+      213: 7542852411809866425
+    second: instant kill 3_59
+  - first:
+      213: -8530769634687996066
+    second: instant kill 3_60
+  - first:
+      213: -8252896517906686510
+    second: instant kill 3_61
+  - first:
+      213: -2205855601014696406
+    second: instant kill 3_62
+  - first:
+      213: 7433019880076474489
+    second: instant kill 3_63
+  - first:
+      213: 2598709693511610627
+    second: instant kill 3_64
+  - first:
+      213: -4127835549093692606
+    second: instant kill 3_65
+  - first:
+      213: -4837486258103215409
+    second: instant kill 3_66
+  - first:
+      213: -4309222367910664580
+    second: instant kill 3_67
+  - first:
+      213: -1967927337708250346
+    second: instant kill 3_68
+  - first:
+      213: 7259731394489856991
+    second: instant kill 3_69
+  - first:
+      213: 725226996025106791
+    second: instant kill 3_70
+  - first:
+      213: -5091953550293486121
+    second: instant kill 3_71
+  - first:
+      213: 5206622578023333061
+    second: instant kill 3_72
+  - first:
+      213: -4149853875257462346
+    second: instant kill 3_73
+  - first:
+      213: 3001462752443676677
+    second: instant kill 3_74
+  - first:
+      213: 2334608672315582245
+    second: instant kill 3_75
+  - first:
+      213: -8210101648878436886
+    second: instant kill 3_76
+  - first:
+      213: -8897020187316624741
+    second: instant kill 3_77
+  - first:
+      213: 3946286688493040142
+    second: instant kill 3_78
+  - first:
+      213: -3994403780201907826
+    second: instant kill 3_79
+  - first:
+      213: 7475936091289652056
+    second: instant kill 3_80
+  - first:
+      213: -7243106055428072532
+    second: instant kill 3_81
+  - first:
+      213: 8037528702355986568
+    second: instant kill 3_82
+  - first:
+      213: -3609414335885776053
+    second: instant kill 3_83
+  - first:
+      213: 4445493170641347735
+    second: instant kill 3_84
+  - first:
+      213: -2892557212826158677
+    second: instant kill 3_85
+  - first:
+      213: 7673971690471437351
+    second: instant kill 3_86
+  - first:
+      213: -1500137526706101243
+    second: instant kill 3_87
+  - first:
+      213: 6535980510497124244
+    second: instant kill 3_88
+  - first:
+      213: 8392524706213659949
+    second: instant kill 3_89
+  - first:
+      213: 5514664214234640155
+    second: instant kill 3_90
+  - first:
+      213: 765276050859772436
+    second: instant kill 3_91
+  - first:
+      213: 9023629198954218709
+    second: instant kill 3_92
+  - first:
+      213: -5861871924647147795
+    second: instant kill 3_93
+  - first:
+      213: -3661826673133340639
+    second: instant kill 3_94
+  - first:
+      213: 8113973772460075252
+    second: instant kill 3_95
+  - first:
+      213: 444171020561559710
+    second: instant kill 3_96
+  - first:
+      213: 7847062129645856367
+    second: instant kill 3_97
+  - first:
+      213: 5801158514862026405
+    second: instant kill 3_98
+  - first:
+      213: -4362101586232394465
+    second: instant kill 3_99
+  - first:
+      213: 6435056488631066299
+    second: instant kill 3_100
+  - first:
+      213: -1907099078064487212
+    second: instant kill 3_101
+  - first:
+      213: -2312161719568102363
+    second: instant kill 3_102
+  - first:
+      213: -4455051711413405365
+    second: instant kill 3_103
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: instant kill 3_0
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a79b5bfea816964d88e8250e3c8a74d
+      internalID: 6957000435570358025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_1
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9737a7898d79d0643bdf20e8bd8c426e
+      internalID: 1188768722039415505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_2
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9ddd62c35cf0248acbaeb1405a32ea
+      internalID: -426198399951927717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_3
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b644af91a90d1734286f4ae3c9a8cb78
+      internalID: -3232795275433781608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_4
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c2a761b4363514f9f2ad1185f75376
+      internalID: 2437377001514199459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_5
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237829c251ccbee47b4f885d39c3f221
+      internalID: -5411324510244470156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_6
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0703554fa46ede4196019774e28d60b
+      internalID: -6333700584520856181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_7
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1036f13e263d5504ea1cfa3baba42547
+      internalID: 8801677859947601640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_8
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 6120
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d770ca6910d1c14d991f1d5d3ba4b03
+      internalID: 3541928429615824614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eee7db1315817c409d0d43fc0b88675
+      internalID: 7459825631024271836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_10
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458b758edc5c79c4884f4bdb7849a2cc
+      internalID: 5018522047656033308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_11
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786a7be163dc17a47a9c8f737cadfc9d
+      internalID: -648026077911119454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_12
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916573e175ec9eb4c91f15b528f97314
+      internalID: -1824580966527665889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_13
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5a058f084f6fa469b48100793767d5
+      internalID: -3630509947313231521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_14
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfa080e64efd96409279520cbc030e3
+      internalID: 5348115910054126625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_15
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7425e1ef3bdcd43b5e7dcbf423b969
+      internalID: 7756362877450168067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_16
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d950f9c32466b4eacb6737d9c59634
+      internalID: 2370869241940999717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_17
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca19c68750995846bfeac29aa43f8d1
+      internalID: -4094440472737301735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_18
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 5508
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45cd3b3c472ae84983d0a1cca30dba9
+      internalID: 1670061463194497950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cc05793311c7b4c951574805173101
+      internalID: 7816081629187804346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_20
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017c453254e2ff344b4d4a27e76e993b
+      internalID: 96985230847501798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_21
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61eeede84aba7644b82c00d314307085
+      internalID: -5277776426979346429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_22
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ba9eb00f336444d9c03dc0ffc694fd
+      internalID: 9175032021739916729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_23
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4176e842d58236e42b41e3209bd9719c
+      internalID: 8743191932801871031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_24
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce184758d790164697535804a6edda7
+      internalID: -2324445417747228325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_25
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367d010a5032a6949984a059b0c40688
+      internalID: 653210239723379253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_26
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e904ec26a03de46b9b1ff098f61190
+      internalID: -3076306840749832629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_27
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e1c64765042e449a3bdebbcc06a46a
+      internalID: -3894033177680160078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_28
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 4896
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1fa0a78563d694a9484ffc354a983f
+      internalID: -8102139241939202109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cfff572b140be40b2dd72f81ed8126
+      internalID: -2570717983612707749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_30
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61363dbdb212bd4889e407df3637f96
+      internalID: -405415770244838226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_31
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f47d9a2542443247b506d6aa1d86b51
+      internalID: 6063998346037284014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_32
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725b7e9b53657d54e9f4b29c05fd9f99
+      internalID: -1035481834784271431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_33
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becb14023baf9a44d9fbd301d4f000f2
+      internalID: 8246272750269244952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_34
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07aa2c825f23c1547bf016f1cb83f7db
+      internalID: 1039649335821218684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_35
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da6ab43ed7fd6946923cd09be959c6d
+      internalID: 36287314517559879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_36
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c950a55ff0dbd4baa781c475bf90c0
+      internalID: 9132210965430586817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_37
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319e63fc9a02f314b91fad0a52b7575f
+      internalID: 6025454063224805004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_38
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26643844c8f10294fac55a608c518555
+      internalID: -7356924943221356714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b9d4308b5a82e49b8cd8741afe73c6
+      internalID: 340867539812993906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_40
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2797be8468bf6d46bc4a3b3e84589c0
+      internalID: 7305280939489104156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_41
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a63501ef65a6d439d0783f68ab6e3c
+      internalID: 1710728769609738473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_42
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb456142d174ae4588d33ded88a76c3
+      internalID: 3549930066665784931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_43
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bed2c4410d94a469efd50fd4da1bd8
+      internalID: -6799321025230986571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_44
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ddae5f6baa2ed45b618c6040aa7178
+      internalID: 6545681564240832079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_45
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3667fdca2a53a3848a485292c19b984a
+      internalID: 5220308230916011019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_46
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd44877adb5e04c4eafc3e90517a76ee
+      internalID: -3870147317850075178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_47
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0688af7c2aacc4c97d8b12fb57eedb
+      internalID: -3719917899982054253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_48
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e40d65e0bba754da26b41ee5d6b539
+      internalID: 3104769118209899972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a2f78f5d435f44abb8225bfe3cd72e
+      internalID: -2344717692842738013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_50
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2535f372b157f564495016270a880ee5
+      internalID: -6539783015205550642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_51
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435e6db0b4b136a48b93cf6353ccff06
+      internalID: -9075231222588171484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_52
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77f078821239844eb774314a703f813
+      internalID: 1872145911595990103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_53
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a5558268ca7694692012a0b7d323a0
+      internalID: -7717429242461566228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_54
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574eee15d9dcfa8468aa0a5d2c65a69c
+      internalID: 641740228272910684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_55
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4589938015a37fa47a6d9fcc96819a3e
+      internalID: 4423650562210934866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_56
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b453a86f170fcbc478235df7a5dbc88c
+      internalID: 4706778187954510669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_57
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f347789da135e947a17ad0d5475dcac
+      internalID: 162039595888112244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_58
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2438c2f5eab02478ac00f4a3f8daeb
+      internalID: 6780872613652440069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759f5653f5186a740857c7965dd96c21
+      internalID: 7542852411809866425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_60
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc3d12aca2e6ea418c5df9428aec913
+      internalID: -8530769634687996066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_61
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b2207e163d4be438fbb084e2d0be77
+      internalID: -8252896517906686510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_62
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cceddb32054ebd45926df9e6b4dd9cf
+      internalID: -2205855601014696406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_63
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4260b1df133794cb8fda599bb55a9b
+      internalID: 7433019880076474489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_64
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c415628f594614fbb6f7d7d5101528
+      internalID: 2598709693511610627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_65
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0a262c9314a6f4ab73440e3c71f424
+      internalID: -4127835549093692606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_66
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad71d583254c61e4982b63e84dd0df5e
+      internalID: -4837486258103215409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_67
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e2f611b13148740aa1a9447528f58a
+      internalID: -4309222367910664580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_68
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198dcd532ea23eb4087f0f9c7da256c2
+      internalID: -1967927337708250346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba33a8d4ebeada47918f4c7c52bd1ed
+      internalID: 7259731394489856991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_70
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4468fe6b2738d46a3de0ce12288036
+      internalID: 725226996025106791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_71
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc33f8fa1c70554ab39c08a446e4d2b
+      internalID: -5091953550293486121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_72
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5371bdf667855418da68b044d73a02
+      internalID: 5206622578023333061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_73
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2809280778125a4aafc67bab38771b2
+      internalID: -4149853875257462346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_74
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f597046443a7dd44a5a920285f0f4ab
+      internalID: 3001462752443676677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_75
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0faf3dfdef2b048a02370588f0c2a8
+      internalID: 2334608672315582245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_76
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51308a5f9b33e9499d7358998a6dede
+      internalID: -8210101648878436886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_77
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887a88ae7ccee3643949cd5e58a3625b
+      internalID: -8897020187316624741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_78
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf404d0350b379489bcdd0f2301d962
+      internalID: 3946286688493040142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5c49140a37dcf4e9301a9f4324dab7
+      internalID: -3994403780201907826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_80
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce2803cfe2b43248b58401607a51ec7
+      internalID: 7475936091289652056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_81
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ddf86898124954ba51868c521ba606
+      internalID: -7243106055428072532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_82
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f1a4a5af5cbdc4c8d190c0f2ff7e23
+      internalID: 8037528702355986568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_83
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb81d2e9c2a4ce49a1fe406a0548940
+      internalID: -3609414335885776053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_84
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e991c5ff469b77c47b8436633e464c95
+      internalID: 4445493170641347735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_85
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5b1bbcedc000b449587f27ba0ade65
+      internalID: -2892557212826158677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_86
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f731325602c0ea5439790999c2135dbb
+      internalID: 7673971690471437351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_87
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f10684b01e50346a44946a02e0e31d
+      internalID: -1500137526706101243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_88
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34fa5e59ac4a0e4da88fba593a88ce2
+      internalID: 6535980510497124244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c323f00433250f4e92745d896e7a4a1
+      internalID: 8392524706213659949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_90
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8424994234195c04c8ce068cde058e7b
+      internalID: 5514664214234640155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_91
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf33fc1fc8b755f4fb87f2501a06903c
+      internalID: 765276050859772436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_92
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6044a3d283c5e341a493c0832850d2a
+      internalID: 9023629198954218709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_93
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdf86d7a9d3ed74d868af8185574cf6
+      internalID: -5861871924647147795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_94
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850d3f26217d180479863e2c3a3c044c
+      internalID: -3661826673133340639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_95
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad2c276005e83c4086fe3de1e30f9bc
+      internalID: 8113973772460075252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_96
+      rect:
+        serializedVersion: 2
+        x: 7616
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d64331517c1c946a42626a4a9dc06e
+      internalID: 444171020561559710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_97
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72d0b11e25467342b415f8e0fe22267
+      internalID: 7847062129645856367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_98
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1fda9641766ff4c9b526c22e01af78
+      internalID: 5801158514862026405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d86f700bba3e546814ead103691d35
+      internalID: -4362101586232394465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_100
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd9b7919664b3e488e43f35fca9f678
+      internalID: 6435056488631066299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_101
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97fa1db0cd320e4eb97f87097909741
+      internalID: -1907099078064487212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_102
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 0
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854bde6ebd491424daa1744c56fbdfe4
+      internalID: -2312161719568102363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instant kill 3_103
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 0
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0466fa2bd9b3948bea784489ff9f04
+      internalID: -4455051711413405365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
