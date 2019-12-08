@@ -19,7 +19,7 @@ public class tutorial : MonoBehaviour
 
     public void LoadLevel()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("StartScene");
     }
 
     public void Menu()

@@ -14,7 +14,6 @@ public class shoot : MonoBehaviour
     public float shotStrength;
     private float maxStrength = 1200;
     private float minStrength = 200;
-    public Slider power;
     public Text balls;
     public Transform player;
     Rigidbody2D rb;
@@ -22,7 +21,7 @@ public class shoot : MonoBehaviour
 
     void Awake()
     {
-        shotStrength = 700;
+        shotStrength = 900;
     }
     void Start()
     {
@@ -34,40 +33,32 @@ public class shoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        Vector3 point = new Vector3(player.transform.position.x, player.transform.position.y, 0);
-        Vector3 axis = new Vector3(0, 0, 1);
-
-        balls.text = "Shots available: " + ballCount;
-
-        if (Input.GetKeyDown(KeyCode.W) && shotStrength < maxStrength)
+        if (health.playerHealth > 0)
         {
-            shotStrength += 100;
-        }
-        else if (Input.GetKeyDown(KeyCode.S) && shotStrength > minStrength)
-        {
-            shotStrength -= 100;
-        }
+            Vector3 point = new Vector3(player.transform.position.x, player.transform.position.y, 0);
+            Vector3 axis = new Vector3(0, 0, 1);
 
-        if (Input.GetKey(KeyCode.Q))
-        {
-            /*transform.Rotate(Vector3.forward);*/
-            shotLoc.transform.RotateAround(point, axis, 5);
-        }
+            balls.text = "Shot: " + ballCount;
 
-        if (Input.GetKey(KeyCode.E))
-        {
-            shotLoc.transform.RotateAround(point, axis, -5);
-        }
+            if (Input.GetKey(KeyCode.V))
+            {
+                /*transform.Rotate(Vector3.forward);*/
+                shotLoc.transform.RotateAround(point, axis, 5);
+            }
+
+            if (Input.GetKey(KeyCode.N))
+            {
+                shotLoc.transform.RotateAround(point, axis, -5);
+            }
 
 
-        if (Input.GetKeyDown(KeyCode.F) && ballCount > 0)
-        {
-            ballClone = Instantiate(ball, shotLoc.position, shotLoc.rotation) as GameObject;
-            ballClone.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
-            ballCount--;
+            if (Input.GetKeyDown(KeyCode.F) && ballCount > 0)
+            {
+                ballClone = Instantiate(ball, shotLoc.position, shotLoc.rotation) as GameObject;
+                ballClone.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
+                ballCount--;
+            }
         }
-        power.value = shotStrength;
     }
 
     private void OnCollisionEnter2D(Collision2D other)

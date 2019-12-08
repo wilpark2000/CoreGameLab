@@ -7,11 +7,11 @@ using UnityEngine.SceneManagement;
 public class health : MonoBehaviour
 {
     public static int playerHealth;
-    public Slider healthBar;
     Rigidbody2D rb;
     float timer;
     public Text secondsTilNextMatch;
     public Text playerWin;
+    Text healthP1;
     public GameObject player;
     public GameObject shotLoc;
     public static bool killed = false;
@@ -21,7 +21,6 @@ public class health : MonoBehaviour
     void Awake()
     {
         playerHealth = 100;
-        healthBar.value = playerHealth;
         //secondsTilNextMatch.text = "";
         //playerWin.text = "";
         timer = 8.0f;
@@ -29,6 +28,8 @@ public class health : MonoBehaviour
 
     void Start()
     {
+        healthP1 = GameObject.Find("P1Health").GetComponent<Text>();
+
         //secondsTilNextMatch = GameObject.Find("victoryText").GetComponent<Text>();
         //playerWin = GameObject.Find("win").GetComponent<Text>();
         
@@ -37,19 +38,19 @@ public class health : MonoBehaviour
         playerHealth = 100;
         //healthBar = GetComponent<Slider>();
         rb = GetComponent<Rigidbody2D>();
-        secondsTilNextMatch.text = "";
-        playerWin.text = "";
     }
 
     // Update is called once per frame
     void Update()
     {
+        healthP1.text = "" + playerHealth + "%";
         PlayerPrefs.SetFloat("s1P1Health", playerHealth);
         if (playerHealth <= 0)
         {
+            playerHealth = 0;
             timer -= Time.deltaTime;
-            player.GetComponent<Renderer>().enabled = false;
-            shotLoc.GetComponent<Renderer>().enabled = false;
+            //player.GetComponent<Renderer>().enabled = false;
+            //shotLoc.GetComponent<Renderer>().enabled = false;
             killed = true;
 
             alive = false;
@@ -64,14 +65,19 @@ public class health : MonoBehaviour
 
         if (transform.position.y <= -6)
         {
+            if (Player2Health.playerHealth > 0)
+            {
+                if (alive == true)
+                {
+                    playerHealth -= 100;
+                }
+            }
             timer -= Time.deltaTime;
-            player.GetComponent<Renderer>().enabled = false;
-            shotLoc.GetComponent<Renderer>().enabled = false;
+            //player.GetComponent<Renderer>().enabled = false;
+            //shotLoc.GetComponent<Renderer>().enabled = false;
             fell = true;
 
             alive = false;
-            playerHealth -= 100;
-
             //secondsTilNextMatch.text = "Player 2 wins!! ";
             //playerWin.text = (Mathf.Round(timer)).ToString("0");
             //if (timer <= 0)
@@ -79,8 +85,6 @@ public class health : MonoBehaviour
             //    SceneManager.LoadScene("BounceScene");
             //}
         }
-
-        healthBar.value = playerHealth; 
     }
 
     void LoseHealth()
@@ -89,10 +93,13 @@ public class health : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "weapon")
+        if (Player2Health.playerHealth > 0)
         {
-            LoseHealth();
-            Destroy(other.gameObject);
+            if (other.gameObject.tag == "weapon")
+            {
+                LoseHealth();
+                Destroy(other.gameObject);
+            }
         }
     }
 }

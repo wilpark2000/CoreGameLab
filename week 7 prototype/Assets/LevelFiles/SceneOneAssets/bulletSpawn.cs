@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class bulletSpawn : MonoBehaviour
 {
@@ -20,11 +21,15 @@ public class bulletSpawn : MonoBehaviour
         timer = 10;
 
         xpos = Random.Range(-5, 5);
-        ypos = 6;
+        ypos = 4;
     }
 
     void Update()
     {
+        if (transform.position.y >= 10 || transform.position.y <= -10)
+        {
+            Destroy(this.gameObject);
+        }
         timer -= Time.deltaTime;
         if (timer <= 0)
         {
@@ -34,11 +39,16 @@ public class bulletSpawn : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    public void MenuScreen()
     {
-        if (other.gameObject.tag == "Player")
-        {
-            Destroy(bullet.gameObject);
-        }
+        SceneManager.LoadScene("StartScene");
     }
+
+    //private void OnCollisionEnter2D(Collision2D other)
+    //{
+    //    if (other.gameObject.tag == "Player")
+    //    {
+    //        Destroy(bullet.gameObject);
+    //    }
+    //}
 }

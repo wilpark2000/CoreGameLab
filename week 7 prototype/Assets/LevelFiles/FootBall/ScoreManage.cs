@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class ScoreManage : MonoBehaviour
 {
+    public GameObject glow1;
+    public GameObject glow2;
+    public Animator anim;
     bool matchEnded;
     bool p1GoalTouched;
     bool p2GoalTouched;
@@ -28,6 +31,7 @@ public class ScoreManage : MonoBehaviour
     public static float scoreDif;
     void Start()
     {
+        anim = GetComponent<Animator>();
         p1Win = false;
         p2Win = false;
         tie = false;
@@ -38,7 +42,7 @@ public class ScoreManage : MonoBehaviour
         p2GoalTimer = 3;
         matchEnded = false;
         timer = 5;
-        matchTimer = 10;
+        matchTimer = 90;
         P1ScoreText = GameObject.Find("ScoreP1").GetComponent<Text>();
         P2ScoreText = GameObject.Find("ScoreP2").GetComponent<Text>();
         matchTimeLeft = GameObject.Find("matchTimer").GetComponent<Text>();
@@ -52,8 +56,11 @@ public class ScoreManage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        transform.position = new Vector3(transform.position.x, transform.position.y, -3);
+
         if (p1GoalTouched == true)
         {
+            glow1.GetComponent<SpriteRenderer>().enabled = true;
             p1GoalTimer -= Time.deltaTime;
             if (p1GoalTimer <= 0)
             {
@@ -61,14 +68,24 @@ public class ScoreManage : MonoBehaviour
                 p1GoalTouched = false;
             }
         }
+        if (p1GoalTouched == false)
+        {
+            glow1.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
         if (p2GoalTouched == true)
         {
+            glow2.GetComponent<SpriteRenderer>().enabled = true;
             p2GoalTimer -= Time.deltaTime;
             if (p2GoalTimer <= 0)
             {
                 p2GoalTimer = 3;
                 p2GoalTouched = false;
             }
+        }
+        if (p2GoalTouched == false)
+        {
+            glow2.GetComponent<SpriteRenderer>().enabled = false;
         }
 
         if (matchTimer > 0)

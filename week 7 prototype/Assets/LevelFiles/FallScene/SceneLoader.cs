@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    public GameObject[] clouds = new GameObject[6];
     public static bool p1Out;
     public static bool p2Out;
 
@@ -38,6 +39,12 @@ public class SceneLoader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        clouds[0].transform.position = new Vector3(clouds[0].transform.position.x + 0.006f, clouds[0].transform.position.y, clouds[0].transform.position.z);
+        clouds[1].transform.position = new Vector3(clouds[1].transform.position.x + 0.0071f, clouds[1].transform.position.y, clouds[1].transform.position.z);
+        clouds[2].transform.position = new Vector3(clouds[2].transform.position.x + 0.0063f, clouds[2].transform.position.y, clouds[2].transform.position.z);
+        clouds[3].transform.position = new Vector3(clouds[3].transform.position.x + 0.0069f, clouds[3].transform.position.y, clouds[3].transform.position.z);
+        clouds[4].transform.position = new Vector3(clouds[4].transform.position.x + 0.0066f, clouds[4].transform.position.y, clouds[4].transform.position.z);
+        clouds[5].transform.position = new Vector3(clouds[5].transform.position.x + 0.0075f, clouds[5].transform.position.y, clouds[5].transform.position.z);
 
         Debug.Log(p1Out);
         Debug.Log(p2Out);

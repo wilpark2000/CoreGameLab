@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class EndScript : MonoBehaviour
 {
@@ -39,5 +40,10 @@ public class EndScript : MonoBehaviour
         {
             win.text = "Draw";
         }
+    }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene("StartScene");
     }
 }

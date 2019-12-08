@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerOneMovement : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class PlayerOneMovement : MonoBehaviour
 
     int numberOfJumps;
 
+    Scene level;
+    string levelName;
+
     private void Awake()
     {
         playerOne = gameObject.GetComponent<PlayerOne>();
@@ -22,38 +26,43 @@ public class PlayerOneMovement : MonoBehaviour
    
     void Update()
     {
+        level = SceneManager.GetActiveScene();
+        levelName = level.name;
         //if (Input.GetKey(KeyCode.Q))
         //    objectRotate.transform.Rotate(Vector3.forward);
 
         //if (Input.GetKey(KeyCode.E))
         //    objectRotate.transform.Rotate(Vector3.back);
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (BounceSceneHealth.playerHealth > 0 || health.playerHealth > 0 || levelName == "StartScene" || levelName == "Tutorial")
         {
-            if (numberOfJumps > 0)
+            if (Input.GetKeyDown(KeyCode.S))
             {
-                float jumpV = 20f;
-                rb.velocity = Vector2.up * jumpV;
-                numberOfJumps--;
+                if (numberOfJumps > 0)
+                {
+                    float jumpV = 21.5f;
+                    rb.velocity = Vector2.up * jumpV;
+                    numberOfJumps--;
+                }
             }
+
+            float speed = 5f;
+
+            if (Input.GetKey(KeyCode.A))
+            {
+                rb.velocity = new Vector2(-speed, rb.velocity.y);
+            }
+
+            else if (Input.GetKey(KeyCode.D))
+            {
+                rb.velocity = new Vector2(speed, rb.velocity.y);
+            }
+
+            //else
+            //{
+            //    rb.velocity = new Vector2(0, rb.velocity.y);
+            //}
         }
-
-        float speed = 5f;
-
-        if (Input.GetKey(KeyCode.A))
-        {
-            rb.velocity = new Vector2(-speed, rb.velocity.y);
-        }
-
-        else if (Input.GetKey(KeyCode.D))
-        {
-            rb.velocity = new Vector2(speed, rb.velocity.y);
-        }
-
-        //else
-        //{
-        //    rb.velocity = new Vector2(0, rb.velocity.y);
-        //}
 
     }
 

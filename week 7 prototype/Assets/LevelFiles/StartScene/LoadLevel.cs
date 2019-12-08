@@ -49,6 +49,12 @@ public class LoadLevel : MonoBehaviour
             Debug.Log(levelSelect.Count);
         }
 
+        SampleScene = true;
+        BounceScene = true;
+        GravityScene = true;
+        FallScene = true;
+        FootBall = true;
+
         //if (currentScene.name == "BounceScene")
         //{
         //    BounceScene = false;
@@ -88,7 +94,6 @@ public class LoadLevel : MonoBehaviour
 
     void Start()
     {
-        levelName = "";
         //secondsTilNextMatch = GameObject.Find("victoryText").GetComponent<Text>();
         //playerWin = GameObject.Find("win").GetComponent<Text>();
 
@@ -114,6 +119,8 @@ public class LoadLevel : MonoBehaviour
 
         if (currentScene.name == "SampleScene")
         {
+            SampleScene = false;
+            bool addedScore = false;
             float p1Health = PlayerPrefs.GetFloat("s1P1Health");
             float p2Health = PlayerPrefs.GetFloat("s1P1Health");
 
@@ -142,11 +149,19 @@ public class LoadLevel : MonoBehaviour
                     {
                         if (health.killed == true)
                         {
-                            totalScoreP2 += 50;
+                            if (addedScore == false)
+                            {
+                                totalScoreP2 += 50;
+                                addedScore = true;
+                            }
                         }
                         if (health.fell == true)
                         {
-                            totalScoreP2 += 75;
+                            if (addedScore == false)
+                            {
+                                totalScoreP2 += 75;
+                                addedScore = true;
+                            }
                         }
                         DontDestroyOnLoad(this.gameObject);
                         SceneManager.LoadScene(levelSelect[Random.Range(0, levelSelect.Count)]);
@@ -155,11 +170,19 @@ public class LoadLevel : MonoBehaviour
                     {
                         if (health.killed == true)
                         {
-                            totalScoreP2 += 50;
+                            if (addedScore == false)
+                            {
+                                totalScoreP2 += 50;
+                                addedScore = true;
+                            }
                         }
                         if (health.fell == true)
                         {
-                            totalScoreP2 += 75;
+                            if (addedScore == false)
+                            {
+                                totalScoreP2 += 50;
+                                addedScore = true;
+                            }
                         }
                         Destroy(this.gameObject);
                         SceneManager.LoadScene("End");
@@ -179,11 +202,19 @@ public class LoadLevel : MonoBehaviour
                         levelSelect.Remove("SampleScene");
                         if (Player2Health.killed == true)
                         {
-                            totalScoreP1 += 50;
+                            if (addedScore == false)
+                            {
+                                totalScoreP1 += 50;
+                                addedScore = true;
+                            }
                         }
                         if (Player2Health.fell == true)
                         {
-                            totalScoreP1 += 75;
+                            if (addedScore == false)
+                            {
+                                totalScoreP1 += 75;
+                                addedScore = true;
+                            }
                         }
                         DontDestroyOnLoad(this.gameObject);
                         SceneManager.LoadScene(levelSelect[Random.Range(0, levelSelect.Count)]);
@@ -192,11 +223,19 @@ public class LoadLevel : MonoBehaviour
                     {
                         if (Player2Health.killed == true)
                         {
-                            totalScoreP1 += 50;
+                            if (addedScore == false)
+                            {
+                                totalScoreP1 += 50;
+                                addedScore = true;
+                            }
                         }
                         if (Player2Health.fell == true)
                         {
-                            totalScoreP1 += 75;
+                            if (addedScore == false)
+                            {
+                                totalScoreP1 += 75;
+                                addedScore = true;
+                            }
                         }
                         Destroy(this.gameObject);
                         SceneManager.LoadScene("End");
@@ -207,6 +246,8 @@ public class LoadLevel : MonoBehaviour
 
         if (currentScene.name == "BounceScene")
         {
+            BounceScene = false;
+            bool addedScore = false;
             secondsTilNextMatch = GameObject.Find("victoryText").GetComponent<Text>();
             playerWin = GameObject.Find("win").GetComponent<Text>();
 
@@ -229,13 +270,21 @@ public class LoadLevel : MonoBehaviour
                     {
                         DontDestroyOnLoad(this.gameObject);
                         BounceScene = false;
-                        totalScoreP2 += 60;
+                        if (addedScore == false)
+                        {
+                            totalScoreP2 += 60;
+                            addedScore = true;
+                        }
                         levelSelect.Remove("BounceScene");
                         SceneManager.LoadScene(levelSelect[Random.Range(0, levelSelect.Count)]);
                     }
                     if (scenesLeft == false)
                     {
-                        totalScoreP2 += 60;
+                        if (addedScore == false)
+                        {
+                            totalScoreP2 += 60;
+                            addedScore = true;
+                        }
                         Destroy(this.gameObject);
                         SceneManager.LoadScene("End");
                     }
@@ -254,13 +303,21 @@ public class LoadLevel : MonoBehaviour
                     {
                         DontDestroyOnLoad(this.gameObject);
                         BounceScene = false;
-                        totalScoreP1 += 60;
+                        if (addedScore == false)
+                        {
+                            totalScoreP1 += 60;
+                            addedScore = true;
+                        }
                         levelSelect.Remove("BounceScene");
                         SceneManager.LoadScene(levelSelect[Random.Range(0, levelSelect.Count)]);
                     }
                     if (scenesLeft == false)
                     {
-                        totalScoreP1 += 60;
+                        if (addedScore == false)
+                        {
+                            totalScoreP1 += 60;
+                            addedScore = true;
+                        }
                         Destroy(this.gameObject);
                         SceneManager.LoadScene("End");
                     }
@@ -270,6 +327,8 @@ public class LoadLevel : MonoBehaviour
 
         if (currentScene.name == "GravityScene")
         {
+            GravityScene = false;
+            bool addedScore = false;
             secondsTilNextMatch = GameObject.Find("victoryText").GetComponent<Text>();
             playerWin = GameObject.Find("win").GetComponent<Text>();
 
@@ -292,13 +351,21 @@ public class LoadLevel : MonoBehaviour
                     {
                         GravityScene = false;
                         DontDestroyOnLoad(this.gameObject);
-                        totalScoreP2 += 60;
+                        if (addedScore == false)
+                        {
+                            totalScoreP2 += 60;
+                            addedScore = true;
+                        }
                         levelSelect.Remove("GravityScene");
                         SceneManager.LoadScene(levelSelect[Random.Range(0, levelSelect.Count)]);
                     }
                     if (scenesLeft == false)
                     {
-                        totalScoreP2 += 60;
+                        if (addedScore == false)
+                        {
+                            totalScoreP2 += 60;
+                            addedScore = true;
+                        }
                         Destroy(this.gameObject);
                         SceneManager.LoadScene("End");
                     }
@@ -316,13 +383,21 @@ public class LoadLevel : MonoBehaviour
                     {
                         GravityScene = false;
                         DontDestroyOnLoad(this.gameObject);
-                        totalScoreP1 += 60;
+                        if (addedScore == false)
+                        {
+                            totalScoreP1 += 60;
+                            addedScore = true;
+                        }
                         levelSelect.Remove("GravityScene");
                         SceneManager.LoadScene(levelSelect[Random.Range(0, levelSelect.Count)]);
                     }
                     if (scenesLeft == false)
                     {
-                        totalScoreP1 += 60;
+                        if (addedScore == false)
+                        {
+                            totalScoreP1 += 60;
+                            addedScore = true;
+                        }
                         Destroy(this.gameObject);
                         SceneManager.LoadScene("End");
                     }
@@ -332,6 +407,8 @@ public class LoadLevel : MonoBehaviour
 
         if (currentScene.name == "FallScene")
         {
+            FallScene = false;
+            bool addedScore = false;
             secondsTilNextMatch = GameObject.Find("victoryText").GetComponent<Text>();
             playerWin = GameObject.Find("win").GetComponent<Text>();
 
@@ -354,13 +431,21 @@ public class LoadLevel : MonoBehaviour
                     {
                         DontDestroyOnLoad(this.gameObject);
                         FallScene = false;
-                        totalScoreP2 += 60;
+                        if (addedScore == false)
+                        {
+                            totalScoreP2 += 60;
+                            addedScore = true;
+                        }
                         levelSelect.Remove("FallScene");
                         SceneManager.LoadScene(levelSelect[Random.Range(0, levelSelect.Count)]);
                     }
                     if (scenesLeft == false)
                     {
-                        totalScoreP2 += 60;
+                        if (addedScore == false)
+                        {
+                            totalScoreP2 += 60;
+                            addedScore = true;
+                        }
                         Destroy(this.gameObject);
                         SceneManager.LoadScene("End");
                     }
@@ -378,13 +463,21 @@ public class LoadLevel : MonoBehaviour
                     {
                         DontDestroyOnLoad(this.gameObject);
                         FallScene = false;
-                        totalScoreP1 += 60;
+                        if (addedScore == false)
+                        {
+                            totalScoreP1 += 60;
+                            addedScore = true;
+                        }
                         levelSelect.Remove("FallScene");
                         SceneManager.LoadScene(levelSelect[Random.Range(0, levelSelect.Count)]);
                     }
                     if (scenesLeft == false)
                     {
-                        totalScoreP1 += 60;
+                        if (addedScore == false)
+                        {
+                            totalScoreP1 += 60;
+                            addedScore = true;
+                        }
                         Destroy(this.gameObject);
                         SceneManager.LoadScene("End");
                     }
@@ -394,6 +487,8 @@ public class LoadLevel : MonoBehaviour
 
         if (currentScene.name == "FootBall")
         {
+            FootBall = false;
+            bool addedScore = false;
             secondsTilNextMatch = GameObject.Find("victoryText").GetComponent<Text>();
             playerWin = GameObject.Find("win").GetComponent<Text>();
 
@@ -415,13 +510,21 @@ public class LoadLevel : MonoBehaviour
                     {
                         levelSelect.Remove("FootBall");
                         FootBall = false;
-                        totalScoreP2 += (40 + 5 * ScoreManage.scoreDif);
+                        if (addedScore == false)
+                        {
+                            totalScoreP2 += (40 + 5 * ScoreManage.scoreDif);
+                            addedScore = true;
+                        }
                         DontDestroyOnLoad(this.gameObject);
                         SceneManager.LoadScene(levelSelect[Random.Range(0, levelSelect.Count)]);
                     }
                     if (scenesLeft == false)
                     {
-                        totalScoreP2 += (40 + 5 * ScoreManage.scoreDif);
+                        if (addedScore == false)
+                        {
+                            totalScoreP2 += (40 + 5 * ScoreManage.scoreDif);
+                            addedScore = true;
+                        }
                         Destroy(this.gameObject);
                         SceneManager.LoadScene("End");
                     }
@@ -439,13 +542,21 @@ public class LoadLevel : MonoBehaviour
                     {
                         levelSelect.Remove("FootBall");
                         FootBall = false;
-                        totalScoreP1 += (40 + 5 * ScoreManage.scoreDif);
+                        if (addedScore == false)
+                        {
+                            totalScoreP1 += (40 + 5 * ScoreManage.scoreDif);
+                            addedScore = true;
+                        }
                         DontDestroyOnLoad(this.gameObject);
                         SceneManager.LoadScene(levelSelect[Random.Range(0, levelSelect.Count)]);
                     }
                     if (scenesLeft == false)
                     {
-                        totalScoreP1 += (40 + 5 * ScoreManage.scoreDif);
+                        if (addedScore == false)
+                        {
+                            totalScoreP1 += (40 + 5 * ScoreManage.scoreDif);
+                            addedScore = true;
+                        }
                         Destroy(this.gameObject);
                         SceneManager.LoadScene("End");
                     }

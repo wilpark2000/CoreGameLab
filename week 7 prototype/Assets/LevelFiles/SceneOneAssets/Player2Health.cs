@@ -7,11 +7,11 @@ using UnityEngine.SceneManagement;
 public class Player2Health : MonoBehaviour
 {
     public static int playerHealth;
-    public Slider healthBar;
     Rigidbody2D rb;
     float timer;
     public Text secondsTilNextMatch;
     public Text playerWin;
+    public Text healthP2;
     public GameObject player;
     public GameObject shotLoc;
     public static bool killed = false;
@@ -21,7 +21,6 @@ public class Player2Health : MonoBehaviour
     void Awake()
     {
         playerHealth = 100;
-        healthBar.value = playerHealth;
         //secondsTilNextMatch.text = "";
         //playerWin.text = "";
         timer = 8.0f;
@@ -35,20 +34,24 @@ public class Player2Health : MonoBehaviour
         playerHealth = 100;
         //healthBar = GetComponent<Slider>();
         rb = GetComponent<Rigidbody2D>();
-        secondsTilNextMatch.text = "";
-        playerWin.text = "";
+        //secondsTilNextMatch.text = "";
+        //playerWin.text = "";
     }
 
     // Update is called once per frame
     void Update()
     {
+        healthP2 = GameObject.FindGameObjectWithTag("P2Health").GetComponent<Text>();
+        healthP2.text = "" + playerHealth + "%";
+
         PlayerPrefs.SetFloat("s2P1Health", playerHealth);
 
         if (playerHealth <= 0)
         {
+            playerHealth = 0;
             timer -= Time.deltaTime;
-            player.GetComponent<Renderer>().enabled = false;
-            shotLoc.GetComponent<Renderer>().enabled = false;
+            //player.GetComponent<Renderer>().enabled = false;
+            //shotLoc.GetComponent<Renderer>().enabled = false;
             killed = true;
             alive = false;
 
@@ -62,9 +65,16 @@ public class Player2Health : MonoBehaviour
 
         if (transform.position.y <= -6)
         {
+            if (health.playerHealth > 0)
+            {
+                if (alive == true)
+                {
+                    playerHealth -= 100;
+                }
+            }
             timer -= Time.deltaTime;
-            player.GetComponent<Renderer>().enabled = false;
-            shotLoc.GetComponent<Renderer>().enabled = false;
+            //player.GetComponent<Renderer>().enabled = false;
+            //shotLoc.GetComponent<Renderer>().enabled = false;
             fell = true;
             alive = false;
 
@@ -75,7 +85,6 @@ public class Player2Health : MonoBehaviour
             //    SceneManager.LoadScene("BounceScene");
             //}
         }
-        healthBar.value = playerHealth;
     }
 
     void LoseHealth()
@@ -84,10 +93,13 @@ public class Player2Health : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "weapon")
+        if (health.playerHealth > 0)
         {
-            LoseHealth();
-            Destroy(other.gameObject);
+            if (other.gameObject.tag == "weapon")
+            {
+                LoseHealth();
+                Destroy(other.gameObject);
+            }
         }
     }
 }

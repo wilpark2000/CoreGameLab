@@ -41,6 +41,9 @@ public class Scene3P1Move : MonoBehaviour
     public Text weapon5;
 
     public Transform player;
+    public GameObject ind;
+    float indyPos;
+    float indxPos = -8.13f;
 
     float weapon4Timer;
 
@@ -71,11 +74,11 @@ public class Scene3P1Move : MonoBehaviour
         isWeapon4 = false;
         isWeapon5 = false;
 
-        ballCount = 1;
-        ballCount2 = 1;
-        ballCount3 = 1;
-        ballCount4 = 20;
-        ballCount5 = 100;
+        ballCount = 2;
+        ballCount2 = 2;
+        ballCount3 = 2;
+        ballCount4 = 40;
+        ballCount5 = 2;
 
         weapon2 = GameObject.FindGameObjectWithTag("BouncerP1").GetComponent<Text>();
         weapon3 = GameObject.FindGameObjectWithTag("PestsP1").GetComponent<Text>();
@@ -89,198 +92,206 @@ public class Scene3P1Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (GravHealth.playerHealth > 0)
         {
-            if (numberOfJumps > 0)
+            if (Input.GetKeyDown(KeyCode.S))
             {
-                float jumpV = 17f;
+                if (numberOfJumps > 0)
+                {
+                    float jumpV = 16f;
+
+                    if (isRotated == false)
+                    {
+                        rb.velocity = Vector2.up * jumpV;
+                    }
+                    if (isRotated == true)
+                    {
+                        rb.velocity = Vector2.up * -jumpV;
+                    }
+                    numberOfJumps--;
+                }
+            }
+
+            float speed = 5f;
+
+            if (Input.GetKey(KeyCode.A))
+            {
+                rb.velocity = new Vector2(-speed, rb.velocity.y);
+            }
+
+            else if (Input.GetKey(KeyCode.D))
+            {
+                rb.velocity = new Vector2(speed, rb.velocity.y);
+            }
+
+
+            if (weaponType == 0)
+            {
+                ind.transform.position = new Vector3(indxPos, -3.2f, -15);
+                isWeapon1 = true;
+                isWeapon2 = false;
+                isWeapon3 = false;
+                isWeapon4 = false;
+                isWeapon5 = false;
+            }
+
+            if (weaponType == 1)
+            {
+                ind.transform.position = new Vector3(indxPos, -3.58f, -15);
+                isWeapon1 = false;
+                isWeapon2 = true;
+                isWeapon3 = false;
+                isWeapon4 = false;
+                isWeapon5 = false;
+            }
+
+            if (weaponType == 2)
+            {
+                ind.transform.position = new Vector3(indxPos, -3.91f, -15);
+                isWeapon1 = false;
+                isWeapon2 = false;
+                isWeapon3 = true;
+                isWeapon4 = false;
+                isWeapon5 = false;
+            }
+
+            if (weaponType == 3)
+            {
+                ind.transform.position = new Vector3(indxPos, -4.24f, -15);
+                isWeapon1 = false;
+                isWeapon2 = false;
+                isWeapon3 = false;
+                isWeapon4 = true;
+                isWeapon5 = false;
+            }
+
+            if (weaponType == 4)
+            {
+                ind.transform.position = new Vector3(indxPos, -4.57f, -15);
+                isWeapon1 = false;
+                isWeapon2 = false;
+                isWeapon3 = false;
+                isWeapon4 = false;
+                isWeapon5 = true;
+            }
+
+            Vector3 point = new Vector3(grabLoc.transform.position.x, grabLoc.transform.position.y, 0);
+            Vector3 axis = new Vector3(0, 0, 1);
+
+            balls.text = "Shot: " + ballCount;
+            weapon2.text = "Bouncers:" + ballCount2;
+            weapon3.text = "Pests: " + ballCount3;
+            weapon4.text = "Machine gun: " + ballCount4;
+            weapon5.text = "Shot gun: " + ballCount5;
+
+            if (Input.GetKeyDown(KeyCode.G))
+            {
+                if (weaponType > 0)
+                {
+                    weaponType--;
+                }
+            }
+            else if (Input.GetKeyDown(KeyCode.B))
+            {
+                if (weaponType <= 3)
+                {
+                    weaponType++;
+                }
+            }
+
+            if (Input.GetKey(KeyCode.V))
+            {
+                /*transform.Rotate(Vector3.forward);*/
+                shotLoc.transform.RotateAround(point, axis, 5);
+            }
+
+            if (Input.GetKey(KeyCode.N))
+            {
+                shotLoc.transform.RotateAround(point, axis, -5);
+            }
+
+
+            if (Input.GetKeyDown(KeyCode.F) && ballCount > 0 && isWeapon1 == true)
+            {
+                if (isRotated == true)
+                {
+                    ballClone = Instantiate(weaponsPrefab[0], shotLoc.position, shotLoc.rotation) as GameObject;
+                    ballClone.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
+                    ballClone.GetComponent<Rigidbody2D>().gravityScale = -2;
+                    ballCount--;
+                }
+                if (isRotated == false)
+                {
+                    ballClone = Instantiate(weaponsPrefab[0], shotLoc.position, shotLoc.rotation) as GameObject;
+                    ballClone.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
+                    ballClone.GetComponent<Rigidbody2D>().gravityScale = 2;
+                    ballCount--;
+                }
+            }
+
+            else if (Input.GetKeyDown(KeyCode.F) && ballCount2 > 0 && isWeapon2 == true)
+            {
+                if (isRotated == true)
+                {
+                    ballClone2 = Instantiate(weaponsPrefab[1], shotLoc.position, shotLoc.rotation) as GameObject;
+                    ballClone2.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
+                    ballClone2.GetComponent<Rigidbody2D>().gravityScale = -4;
+                    ballCount2--;
+                }
 
                 if (isRotated == false)
                 {
-                    rb.velocity = Vector2.up * jumpV;
+                    ballClone2 = Instantiate(weaponsPrefab[1], shotLoc.position, shotLoc.rotation) as GameObject;
+                    ballClone2.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
+                    ballClone2.GetComponent<Rigidbody2D>().gravityScale = 4;
+                    ballCount2--;
                 }
+            }
+
+            else if (Input.GetKeyDown(KeyCode.F) && ballCount3 > 0 && isWeapon3 == true)
+            {
                 if (isRotated == true)
                 {
-                    rb.velocity = Vector2.up * -jumpV;
+                    ballClone3 = Instantiate(weaponsPrefab[2], shotLoc.position, shotLoc.rotation) as GameObject;
+                    ballClone3.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
+                    ballClone3.GetComponent<Rigidbody2D>().gravityScale = -3;
+                    ballCount3--;
                 }
-                numberOfJumps--;
+                if (isRotated == false)
+                {
+                    ballClone3 = Instantiate(weaponsPrefab[2], shotLoc.position, shotLoc.rotation) as GameObject;
+                    ballClone3.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
+                    ballClone3.GetComponent<Rigidbody2D>().gravityScale = 3;
+                    ballCount3--;
+                }
             }
-        }
 
-        float speed = 5f;
-
-        if (Input.GetKey(KeyCode.A))
-        {
-            rb.velocity = new Vector2(-speed, rb.velocity.y);
-        }
-
-        else if (Input.GetKey(KeyCode.D))
-        {
-            rb.velocity = new Vector2(speed, rb.velocity.y);
-        }
-
-        if (weaponType == 0)
-        {
-            isWeapon1 = true;
-            isWeapon2 = false;
-            isWeapon3 = false;
-            isWeapon4 = false;
-            isWeapon5 = false;
-        }
-
-        if (weaponType == 1)
-        {
-            isWeapon1 = false;
-            isWeapon2 = true;
-            isWeapon3 = false;
-            isWeapon4 = false;
-            isWeapon5 = false;
-        }
-
-        if (weaponType == 2)
-        {
-            isWeapon1 = false;
-            isWeapon2 = false;
-            isWeapon3 = true;
-            isWeapon4 = false;
-            isWeapon5 = false;
-        }
-
-        if (weaponType == 3)
-        {
-            isWeapon1 = false;
-            isWeapon2 = false;
-            isWeapon3 = false;
-            isWeapon4 = true;
-            isWeapon5 = false;
-        }
-
-        if (weaponType == 4)
-        {
-            isWeapon1 = false;
-            isWeapon2 = false;
-            isWeapon3 = false;
-            isWeapon4 = false;
-            isWeapon5 = true;
-        }
-
-        Vector3 point = new Vector3(grabLoc.transform.position.x, grabLoc.transform.position.y, 0);
-        Vector3 axis = new Vector3(0, 0, 1);
-        grabLoc.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z);
-
-        balls.text = "Shot: " + ballCount;
-        weapon2.text = "Bouncers:" + ballCount2;
-        weapon3.text = "Pests: " + ballCount3;
-        weapon4.text = "Machine gun: " + ballCount4;
-        weapon5.text = "Shot gun: " + ballCount5;
-
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            if (weaponType > 0)
+            else if (Input.GetKey(KeyCode.F) && ballCount4 > 0 && isWeapon4 == true)
             {
-                weaponType--;
+                weapon4Timer -= Time.deltaTime;
+                if (weapon4Timer <= 0)
+                {
+                    ballClone4 = Instantiate(weaponsPrefab[3], shotLoc.position, shotLoc.rotation) as GameObject;
+                    ballClone4.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * 1000);
+                    ballCount4--;
+                    weapon4Timer = 0.07f;
+                }
             }
-        }
-        else if (Input.GetKeyDown(KeyCode.S))
-        {
-            if (weaponType <= 3)
+
+            else if (Input.GetKeyDown(KeyCode.F) && ballCount5 > 0 && isWeapon5 == true)
             {
-                weaponType++;
+                //Vector3 dir = (shotLoc.transform.position - transform.position).normalized;
+                //float angle = Mathf.Atan2(dir.x, dir.y) * Mathf.Rad2Deg;
+
+                for (int i = 0; i < 8; i++)
+                {
+                    float spread = Random.Range(-10, 10);
+                    Quaternion bulletRotation = Quaternion.Euler(new Vector3(0, 0, spread));
+                    ballClone5 = Instantiate(weaponsPrefab[4], shotLoc.position, shotLoc.rotation * bulletRotation) as GameObject;
+                    ballClone5.GetComponent<Rigidbody2D>().AddForce(ballClone5.transform.up * 700);
+                }
+                ballCount5--;
             }
-        }
-
-        if (Input.GetKey(KeyCode.Q))
-        {
-            /*transform.Rotate(Vector3.forward);*/
-            shotLoc.transform.RotateAround(point, axis, 5);
-        }
-
-        if (Input.GetKey(KeyCode.E))
-        {
-            shotLoc.transform.RotateAround(point, axis, -5);
-        }
-
-
-        if (Input.GetKeyDown(KeyCode.F) && ballCount > 0 && isWeapon1 == true)
-        {
-            if (isRotated == true)
-            {
-                ballClone = Instantiate(weaponsPrefab[0], shotLoc.position, shotLoc.rotation) as GameObject;
-                ballClone.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
-                ballClone.GetComponent<Rigidbody2D>().gravityScale = -2;
-                ballCount--;
-            }
-            if (isRotated == false)
-            {
-                ballClone = Instantiate(weaponsPrefab[0], shotLoc.position, shotLoc.rotation) as GameObject;
-                ballClone.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
-                ballClone.GetComponent<Rigidbody2D>().gravityScale = 2;
-                ballCount--;
-            }
-        }
-
-        else if (Input.GetKeyDown(KeyCode.F) && ballCount2 > 0 && isWeapon2 == true)
-        {
-            if (isRotated == true)
-            {
-                ballClone2 = Instantiate(weaponsPrefab[1], shotLoc.position, shotLoc.rotation) as GameObject;
-                ballClone2.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
-                ballClone2.GetComponent<Rigidbody2D>().gravityScale = -4;
-                ballCount2--;
-            }
-
-            if (isRotated == false)
-            {
-                ballClone2 = Instantiate(weaponsPrefab[1], shotLoc.position, shotLoc.rotation) as GameObject;
-                ballClone2.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
-                ballClone2.GetComponent<Rigidbody2D>().gravityScale = 4;
-                ballCount2--;
-            }
-        }
-
-        else if (Input.GetKeyDown(KeyCode.F) && ballCount3 > 0 && isWeapon3 == true)
-        {
-            if (isRotated == true)
-            {
-                ballClone3 = Instantiate(weaponsPrefab[2], shotLoc.position, shotLoc.rotation) as GameObject;
-                ballClone3.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
-                ballClone3.GetComponent<Rigidbody2D>().gravityScale = -3;
-                ballCount3--;
-            }
-            if (isRotated == false)
-            {
-                ballClone3 = Instantiate(weaponsPrefab[2], shotLoc.position, shotLoc.rotation) as GameObject;
-                ballClone3.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
-                ballClone3.GetComponent<Rigidbody2D>().gravityScale = 3;
-                ballCount3--;
-            }
-        }
-
-        else if (Input.GetKey(KeyCode.F) && ballCount4 > 0 && isWeapon4 == true)
-        {
-            weapon4Timer -= Time.deltaTime;
-            if (weapon4Timer <= 0)
-            {
-                ballClone4 = Instantiate(weaponsPrefab[3], shotLoc.position, shotLoc.rotation) as GameObject;
-                ballClone4.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * 1000);
-                ballCount4--;
-                weapon4Timer = 0.07f;
-            }
-        }
-
-        else if (Input.GetKeyDown(KeyCode.F) && ballCount5 > 0 && isWeapon5 == true)
-        {
-            //Vector3 dir = (shotLoc.transform.position - transform.position).normalized;
-            //float angle = Mathf.Atan2(dir.x, dir.y) * Mathf.Rad2Deg;
-
-            for (int i = 0; i < 8; i++)
-            {
-                float spread = Random.Range(-10, 10);
-                Quaternion bulletRotation = Quaternion.Euler(new Vector3(0, 0, spread));
-                ballClone5 = Instantiate(weaponsPrefab[4], shotLoc.position, shotLoc.rotation * bulletRotation) as GameObject;
-                ballClone5.GetComponent<Rigidbody2D>().AddForce(ballClone5.transform.up * 700);
-            }
-            ballCount5--;
         }
     }
 

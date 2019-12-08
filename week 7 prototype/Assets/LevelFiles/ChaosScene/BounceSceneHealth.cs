@@ -70,34 +70,40 @@ public class BounceSceneHealth : MonoBehaviour
     //}
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "weapon")
+        if (BounceSceneHealthP2.playerHealth > 0)
         {
-            playerHealth -= 5f;
-            //Destroy(other.gameObject);
-        }
+            if (other.gameObject.tag == "weapon")
+            {
+                playerHealth -= 5f;
+                //Destroy(other.gameObject);
+            }
 
-        if (other.gameObject.tag == "weapon2")
-        {
-            playerHealth -= 2f;
-            //Destroy(other.gameObject);
-        }
+            if (other.gameObject.tag == "weapon2")
+            {
+                playerHealth -= 2f;
+                //Destroy(other.gameObject);
+            }
 
-        if (other.gameObject.tag == "weapon3")
-        {
-            playerHealth -= 0.5f;
-        }
+            if (other.gameObject.tag == "weapon3")
+            {
+                playerHealth -= 0.5f;
+            }
 
-        if (other.gameObject.tag == "weapon5")
-        {
-            playerHealth -= 1f;
+            if (other.gameObject.tag == "weapon5")
+            {
+                playerHealth -= 1f;
+            }
         }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "weapon4")
+        if (BounceSceneHealthP2.playerHealth > 0)
         {
-            playerHealth -= 0.5f;
+            if (other.gameObject.tag == "weapon4")
+            {
+                playerHealth -= 0.5f;
+            }
         }
     }
 }

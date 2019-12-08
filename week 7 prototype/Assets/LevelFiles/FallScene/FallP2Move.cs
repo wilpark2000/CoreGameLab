@@ -85,7 +85,7 @@ public class FallP2Move : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Semicolon))
+        if (Input.GetKeyDown(KeyCode.Period))
         {
             if (numberOfJumps > 0)
             {
@@ -97,12 +97,12 @@ public class FallP2Move : MonoBehaviour
 
         float speed = 5f;
 
-        if (Input.GetKey(KeyCode.L))
+        if (Input.GetKey(KeyCode.Comma))
         {
             rb.velocity = new Vector2(-speed, rb.velocity.y);
         }
 
-        else if (Input.GetKey(KeyCode.Quote))
+        else if (Input.GetKey(KeyCode.Slash))
         {
             rb.velocity = new Vector2(speed, rb.velocity.y);
         }
@@ -112,19 +112,19 @@ public class FallP2Move : MonoBehaviour
 
         balls.text = "shots: " + ballCount;
 
-        if (Input.GetKey(KeyCode.Alpha3))
+        if (Input.GetKey(KeyCode.Keypad1))
         {
             /*transform.Rotate(Vector3.forward);*/
             shotLoc.transform.RotateAround(point, axis, 5);
         }
 
-        if (Input.GetKey(KeyCode.Alpha1))
+        if (Input.GetKey(KeyCode.Keypad3))
         {
             shotLoc.transform.RotateAround(point, axis, -5);
         }
 
 
-        if (Input.GetKeyDown(KeyCode.KeypadEnter) && ballCount > 0)
+        if (Input.GetKeyDown(KeyCode.RightShift) && ballCount > 0)
         {
             ballClone = Instantiate(weaponPrefab, shotLoc.position, shotLoc.rotation) as GameObject;
             ballClone.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);

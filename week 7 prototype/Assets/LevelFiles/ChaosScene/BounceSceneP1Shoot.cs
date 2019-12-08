@@ -40,6 +40,9 @@ public class BounceSceneP1Shoot : MonoBehaviour
     public Text weapon5;
 
     public Transform player;
+    public GameObject ind;
+    float indyPos;
+    float indxPos = -6.6f;
 
     float weapon4Timer;
 
@@ -60,11 +63,11 @@ public class BounceSceneP1Shoot : MonoBehaviour
         isWeapon4 = false;
         isWeapon5 = false;
 
-        ballCount = 1;
-        ballCount2 = 1;
-        ballCount3 = 1;
-        ballCount4 = 20;
-        ballCount5 = 100;
+        ballCount = 5;
+        ballCount2 = 3;
+        ballCount3 = 2;
+        ballCount4 = 40;
+        ballCount5 = 3;
         
         weapon2 = GameObject.FindGameObjectWithTag("BouncerP1").GetComponent<Text>();
         weapon3 = GameObject.FindGameObjectWithTag("PestsP1").GetComponent<Text>();
@@ -78,135 +81,141 @@ public class BounceSceneP1Shoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-
-        if (weaponType == 0)
+        if (BounceSceneHealth.playerHealth > 0)
         {
-            isWeapon1 = true;
-            isWeapon2 = false;
-            isWeapon3 = false;
-            isWeapon4 = false;
-            isWeapon5 = false;
-        }
-
-        if (weaponType == 1)
-        {
-            isWeapon1 = false;
-            isWeapon2 = true;
-            isWeapon3 = false;
-            isWeapon4 = false;
-            isWeapon5 = false;
-        }
-
-        if (weaponType == 2)
-        {
-            isWeapon1 = false;
-            isWeapon2 = false;
-            isWeapon3 = true;
-            isWeapon4 = false;
-            isWeapon5 = false;
-        }
-
-        if (weaponType == 3)
-        {
-            isWeapon1 = false;
-            isWeapon2 = false;
-            isWeapon3 = false;
-            isWeapon4 = true;
-            isWeapon5 = false;
-        }
-
-        if (weaponType == 4)
-        {
-            isWeapon1 = false;
-            isWeapon2 = false;
-            isWeapon3 = false;
-            isWeapon4 = false;
-            isWeapon5 = true;
-        }
-
-        Vector3 point = new Vector3(player.transform.position.x, player.transform.position.y, 0);
-        Vector3 axis = new Vector3(0, 0, 1);
-
-        balls.text = "Shots available: " + ballCount;
-        weapon2.text = "Bouncers:" + ballCount2;
-        weapon3.text = "Pests: " + ballCount3;
-        weapon4.text = "Machine gun: " + ballCount4;
-        weapon5.text = "Shot gun: " + ballCount5;
-
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            if(weaponType > 0)
+            if (weaponType == 0)
             {
-                weaponType--;
+                ind.transform.position = new Vector3(indxPos, 3.6f, -15);
+                isWeapon1 = true;
+                isWeapon2 = false;
+                isWeapon3 = false;
+                isWeapon4 = false;
+                isWeapon5 = false;
             }
-        }
-        else if (Input.GetKeyDown(KeyCode.S))
-        {
-            if (weaponType <= 3)
+
+            if (weaponType == 1)
             {
-                weaponType++;
+                ind.transform.position = new Vector3(indxPos, 3.17f, -15);
+                isWeapon1 = false;
+                isWeapon2 = true;
+                isWeapon3 = false;
+                isWeapon4 = false;
+                isWeapon5 = false;
             }
-        }
 
-        if (Input.GetKey(KeyCode.Q))
-        {
-            /*transform.Rotate(Vector3.forward);*/
-            shotLoc.transform.RotateAround(point, axis, 5);
-        }
-
-        if (Input.GetKey(KeyCode.E))
-        {
-            shotLoc.transform.RotateAround(point, axis, -5);
-        }
-
-
-        if (Input.GetKeyDown(KeyCode.F) && ballCount > 0 && isWeapon1 == true)
-        {
-            ballClone = Instantiate(weaponsPrefab[0], shotLoc.position, shotLoc.rotation) as GameObject;
-            ballClone.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
-            ballCount--;
-        }
-
-        else if (Input.GetKeyDown(KeyCode.F) && ballCount2 > 0 && isWeapon2 == true)
-        {
-            ballClone2 = Instantiate(weaponsPrefab[1], shotLoc.position, shotLoc.rotation) as GameObject;
-            ballClone2.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
-            ballCount2--;
-        }
-
-        else if (Input.GetKeyDown(KeyCode.F) && ballCount3 > 0 && isWeapon3 == true)
-        {
-            ballClone3 = Instantiate(weaponsPrefab[2], shotLoc.position, shotLoc.rotation) as GameObject;
-            ballClone3.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
-            ballCount3--;
-        }
-
-        else if (Input.GetKey(KeyCode.F) && ballCount4 > 0 && isWeapon4 == true)
-        {
-            weapon4Timer -= Time.deltaTime;
-            if (weapon4Timer <= 0)
+            if (weaponType == 2)
             {
-                ballClone4 = Instantiate(weaponsPrefab[3], shotLoc.position, shotLoc.rotation) as GameObject;
-                ballClone4.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * 1000);
-                ballCount4--;
-                weapon4Timer = 0.07f;
+                ind.transform.position = new Vector3(indxPos, 2.77f, -15);
+                isWeapon1 = false;
+                isWeapon2 = false;
+                isWeapon3 = true;
+                isWeapon4 = false;
+                isWeapon5 = false;
             }
-        }
 
-        else if (Input.GetKeyDown(KeyCode.F) && ballCount5 > 0 && isWeapon5 == true)
-        {
-            //Vector3 dir = (shotLoc.transform.position - transform.position).normalized;
-            //float angle = Mathf.Atan2(dir.x, dir.y) * Mathf.Rad2Deg;
-
-            for (int i = 0; i < 8; i++)
+            if (weaponType == 3)
             {
-                float spread = Random.Range(-10, 10);
-                Quaternion bulletRotation = Quaternion.Euler(new Vector3(0, 0, spread));
-                ballClone5 = Instantiate(weaponsPrefab[4], shotLoc.position, shotLoc.rotation * bulletRotation) as GameObject;
-                ballClone5.GetComponent<Rigidbody2D>().AddForce(ballClone5.transform.up * 700);
+                ind.transform.position = new Vector3(indxPos, 2.37f, -15);
+                isWeapon1 = false;
+                isWeapon2 = false;
+                isWeapon3 = false;
+                isWeapon4 = true;
+                isWeapon5 = false;
             }
-            ballCount5--;
+
+            if (weaponType == 4)
+            {
+                ind.transform.position = new Vector3(indxPos, 1.97f, -15);
+                isWeapon1 = false;
+                isWeapon2 = false;
+                isWeapon3 = false;
+                isWeapon4 = false;
+                isWeapon5 = true;
+            }
+
+            Vector3 point = new Vector3(player.transform.position.x, player.transform.position.y, 0);
+            Vector3 axis = new Vector3(0, 0, 1);
+
+            balls.text = "Shots: " + ballCount;
+            weapon2.text = "Bouncers:" + ballCount2;
+            weapon3.text = "Pests: " + ballCount3;
+            weapon4.text = "Machine gun: " + ballCount4;
+            weapon5.text = "Shot gun: " + ballCount5;
+
+            if (Input.GetKeyDown(KeyCode.G))
+            {
+                if (weaponType > 0)
+                {
+                    weaponType--;
+                }
+            }
+            else if (Input.GetKeyDown(KeyCode.B))
+            {
+                if (weaponType <= 3)
+                {
+                    weaponType++;
+                }
+            }
+
+            if (Input.GetKey(KeyCode.V))
+            {
+                /*transform.Rotate(Vector3.forward);*/
+                shotLoc.transform.RotateAround(point, axis, 5);
+            }
+
+            if (Input.GetKey(KeyCode.N))
+            {
+                shotLoc.transform.RotateAround(point, axis, -5);
+            }
+
+
+            if (Input.GetKeyDown(KeyCode.F) && ballCount > 0 && isWeapon1 == true)
+            {
+                ballClone = Instantiate(weaponsPrefab[0], shotLoc.position, shotLoc.rotation) as GameObject;
+                ballClone.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
+                ballCount--;
+            }
+
+            else if (Input.GetKeyDown(KeyCode.F) && ballCount2 > 0 && isWeapon2 == true)
+            {
+                ballClone2 = Instantiate(weaponsPrefab[1], shotLoc.position, shotLoc.rotation) as GameObject;
+                ballClone2.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
+                ballCount2--;
+            }
+
+            else if (Input.GetKeyDown(KeyCode.F) && ballCount3 > 0 && isWeapon3 == true)
+            {
+                ballClone3 = Instantiate(weaponsPrefab[2], shotLoc.position, shotLoc.rotation) as GameObject;
+                ballClone3.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
+                ballCount3--;
+            }
+
+            else if (Input.GetKey(KeyCode.F) && ballCount4 > 0 && isWeapon4 == true)
+            {
+                weapon4Timer -= Time.deltaTime;
+                if (weapon4Timer <= 0)
+                {
+                    ballClone4 = Instantiate(weaponsPrefab[3], shotLoc.position, shotLoc.rotation) as GameObject;
+                    ballClone4.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * 1000);
+                    ballCount4--;
+                    weapon4Timer = 0.07f;
+                }
+            }
+
+            else if (Input.GetKeyDown(KeyCode.F) && ballCount5 > 0 && isWeapon5 == true)
+            {
+                //Vector3 dir = (shotLoc.transform.position - transform.position).normalized;
+                //float angle = Mathf.Atan2(dir.x, dir.y) * Mathf.Rad2Deg;
+
+                for (int i = 0; i < 8; i++)
+                {
+                    float spread = Random.Range(-10, 10);
+                    Quaternion bulletRotation = Quaternion.Euler(new Vector3(0, 0, spread));
+                    ballClone5 = Instantiate(weaponsPrefab[4], shotLoc.position, shotLoc.rotation * bulletRotation) as GameObject;
+                    ballClone5.GetComponent<Rigidbody2D>().AddForce(ballClone5.transform.up * 700);
+                }
+                ballCount5--;
+            }
         }
     }
 

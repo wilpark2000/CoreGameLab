@@ -1,0 +1,1171 @@
+fileFormatVersion: 2
+guid: 4233b3c52f62e154ea65673257bae6fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2099415168907153471
+    second: football sheet_0
+  - first:
+      213: 7996640408995139875
+    second: football sheet_1
+  - first:
+      213: 183194766225679948
+    second: football sheet_2
+  - first:
+      213: 1403702650143933186
+    second: football sheet_3
+  - first:
+      213: -1401581827424464856
+    second: football sheet_4
+  - first:
+      213: -6133971473244037074
+    second: football sheet_5
+  - first:
+      213: 8064266580453187270
+    second: football sheet_6
+  - first:
+      213: -3004845747648261606
+    second: football sheet_7
+  - first:
+      213: 5986911245652915006
+    second: football sheet_8
+  - first:
+      213: 4859403395485732143
+    second: football sheet_9
+  - first:
+      213: 1833927600544348843
+    second: football sheet_10
+  - first:
+      213: 5985267531116048441
+    second: football sheet_11
+  - first:
+      213: -409773883945861404
+    second: football sheet_12
+  - first:
+      213: -8473190615022397899
+    second: football sheet_13
+  - first:
+      213: 5602002572111045329
+    second: football sheet_14
+  - first:
+      213: 4368212056750740673
+    second: football sheet_15
+  - first:
+      213: -580459354642018917
+    second: football sheet_16
+  - first:
+      213: 7519711093867056282
+    second: football sheet_17
+  - first:
+      213: -6199754131612245166
+    second: football sheet_18
+  - first:
+      213: -755856400567421005
+    second: football sheet_19
+  - first:
+      213: -3419248543382454392
+    second: football sheet_20
+  - first:
+      213: -6400195689110097380
+    second: football sheet_21
+  - first:
+      213: 4806001763074770707
+    second: football sheet_22
+  - first:
+      213: 7019716792209093493
+    second: football sheet_23
+  - first:
+      213: 4505987722036129987
+    second: football sheet_24
+  - first:
+      213: 5795589694467908214
+    second: football sheet_25
+  - first:
+      213: -5478432454892361480
+    second: football sheet_26
+  - first:
+      213: 5522685349735965905
+    second: football sheet_27
+  - first:
+      213: -6150960606864829955
+    second: football sheet_28
+  - first:
+      213: -3708642974000384403
+    second: football sheet_29
+  - first:
+      213: -4068886726985061671
+    second: football sheet_30
+  - first:
+      213: -5511043944896536706
+    second: football sheet_31
+  - first:
+      213: 6779084470335613972
+    second: football sheet_32
+  - first:
+      213: -2026423154932351678
+    second: football sheet_33
+  - first:
+      213: 4228988681345621530
+    second: football sheet_34
+  - first:
+      213: -1789306659487080251
+    second: football sheet_35
+  - first:
+      213: 1759182279083646815
+    second: football sheet_36
+  - first:
+      213: 6465517468829024267
+    second: football sheet_37
+  - first:
+      213: -1126429742705461750
+    second: football sheet_38
+  - first:
+      213: -3162592619882902475
+    second: football sheet_39
+  - first:
+      213: -6839051920366173492
+    second: football sheet_40
+  - first:
+      213: 9198944762534998103
+    second: football sheet_41
+  - first:
+      213: -1578481004634821354
+    second: football sheet_42
+  - first:
+      213: 8230403672313394624
+    second: football sheet_43
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: football sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb3d26dc0085bb499356d61edc998ad
+      internalID: -2099415168907153471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c0eb9ce932ccc4e931ffbe471485a5
+      internalID: 7996640408995139875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810dcea6fe0a4654595b47852d92a083
+      internalID: 183194766225679948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5210027dff8ae0c4c9aec0121a5cd512
+      internalID: 1403702650143933186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_4
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bd5479052f762449383a4179917f58
+      internalID: -1401581827424464856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_5
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 4284
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c67f8e8b5d5d7b41b81c0d6c018319a
+      internalID: -6133971473244037074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3341e8291fd560144917fce27cf969f0
+      internalID: 8064266580453187270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a27884c14f45e48bb06bffe036e9aa
+      internalID: -3004845747648261606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e58f364bf3b2854eb662eb6bbdb808c
+      internalID: 5986911245652915006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_9
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887fd5f4d226fae45889d5d2826fd24d
+      internalID: 4859403395485732143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_10
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e3c49a2834f2e4b9d09bb14a8daf93
+      internalID: 1833927600544348843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_11
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 3672
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f640f6194df136645b133ac60a1b6b49
+      internalID: 5985267531116048441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fef21efdd0b89b4ea6867cfa3fdadaf
+      internalID: -409773883945861404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6558573452ce6814da7935a98c81a161
+      internalID: -8473190615022397899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f9087a12ec5a84f86ae0c4956251a0
+      internalID: 5602002572111045329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0994697ff04c70043a7db8637e1a50c9
+      internalID: 4368212056750740673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_16
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f476bc1788731b4b97713651e6ef075
+      internalID: -580459354642018917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_17
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 3060
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b857db5b838d75147969e6ff1a8b6bc7
+      internalID: 7519711093867056282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8397c8ca939f214c856cbea0405be55
+      internalID: -6199754131612245166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3812183e4396334e8958128ea2c4e6a
+      internalID: -755856400567421005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5722ce398c0d2bd40afd9186a382f926
+      internalID: -3419248543382454392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_21
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afa5e00ad08cb849b6d172bcbbc100c
+      internalID: -6400195689110097380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_22
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbf6eca5ed0d2a4da6d0b4b7611d82d
+      internalID: 4806001763074770707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_23
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 2448
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3b221dbd6262d4eb954485bc4f96a4
+      internalID: 7019716792209093493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ce90729af936e4b9be34dbcdd22eb7
+      internalID: 4505987722036129987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1b2b3e06e2a184fa7df4f633fb1ec6
+      internalID: 5795589694467908214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df75071f7b856d6428d1bf54bd06cfec
+      internalID: -5478432454892361480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27508de9e523e954f9ac626015efc088
+      internalID: 5522685349735965905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_28
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c32d421311d8d14c8eaec0df8fe5814
+      internalID: -6150960606864829955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_29
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 1836
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a6784bdcdc8da49acb015c2a7c083b
+      internalID: -3708642974000384403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b5eca4eb850ff4597568a587a8def3
+      internalID: -4068886726985061671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4a4651bc336254ebdfbe491dbe8a59
+      internalID: -5511043944896536706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_32
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f55d79dbd639964dbc3a93a5a4932f3
+      internalID: 6779084470335613972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_33
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f66e72f3b61a0f4fa2181102cd51d11
+      internalID: -2026423154932351678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_34
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28da77ab2ea229d40bd484ef9eecec7e
+      internalID: 4228988681345621530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_35
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 1224
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6890a79bea887543b8222b92c179371
+      internalID: -1789306659487080251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62351f162917ade42b25546e8ea08634
+      internalID: 1759182279083646815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69351bfc976cb94aa298266d4a29df6
+      internalID: 6465517468829024267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_38
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6b65670d005484fbd30dffdae23125
+      internalID: -1126429742705461750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_39
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4d18db5f27e1841be90ae8c783c8ce
+      internalID: -3162592619882902475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_40
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1bd3700b62f2a4bb2b1803d0afcae3
+      internalID: -6839051920366173492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_41
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 612
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973ae18c98d9dbe43be8a1bd549d2b21
+      internalID: 9198944762534998103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadf5529f00c9a240bc6f33ebad58846
+      internalID: -1578481004634821354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: football sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 1088
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963a7cb94cff06f40b6e1f7f510935fe
+      internalID: 8230403672313394624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

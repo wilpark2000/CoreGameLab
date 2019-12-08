@@ -85,7 +85,7 @@ public class FBP1Move : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.S))
         {
             if (numberOfJumps > 0)
             {
@@ -112,13 +112,13 @@ public class FBP1Move : MonoBehaviour
 
         balls.text = "shots: " + ballCount;
 
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.V))
         {
             /*transform.Rotate(Vector3.forward);*/
             shotLoc.transform.RotateAround(point, axis, 5);
         }
 
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKey(KeyCode.N))
         {
             shotLoc.transform.RotateAround(point, axis, -5);
         }

@@ -14,7 +14,6 @@ public class player2Shoot : MonoBehaviour
     public float shotStrength;
     private float maxStrength = 1200;
     private float minStrength = 200;
-    public Slider power;
     public Text balls;
     public Transform player;
     Rigidbody2D rb;
@@ -22,7 +21,7 @@ public class player2Shoot : MonoBehaviour
 
     void Awake()
     {
-        shotStrength = 700;
+        shotStrength = 900;
     }
 
     void Start()
@@ -37,40 +36,32 @@ public class player2Shoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        balls.text = "Shots available: " + ballCount;
-
-        if (Input.GetKeyDown(KeyCode.UpArrow) && shotStrength < maxStrength)
+        if (Player2Health.playerHealth > 0)
         {
-            shotStrength += 100;
-        }
-        else if (Input.GetKeyDown(KeyCode.DownArrow) && shotStrength > minStrength)
-        {
-            shotStrength -= 100;
-        }
+            balls.text = "Shot: " + ballCount;
 
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            /*transform.Rotate(Vector3.forward);*/
-            Vector3 point = new Vector3(player.transform.position.x, player.transform.position.y, 0);
-            Vector3 axis = new Vector3(0, 0, 1);
-            shotLoc.transform.RotateAround(point, axis, 3);
-        }
+            if (Input.GetKey(KeyCode.Keypad1))
+            {
+                /*transform.Rotate(Vector3.forward);*/
+                Vector3 point = new Vector3(player.transform.position.x, player.transform.position.y, 0);
+                Vector3 axis = new Vector3(0, 0, 1);
+                shotLoc.transform.RotateAround(point, axis, 3);
+            }
 
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            Vector3 point = new Vector3(player.transform.position.x, player.transform.position.y, 0);
-            Vector3 axis = new Vector3(0, 0, 1);
-            shotLoc.transform.RotateAround(point, axis, -3);
-        }
+            if (Input.GetKey(KeyCode.Keypad3))
+            {
+                Vector3 point = new Vector3(player.transform.position.x, player.transform.position.y, 0);
+                Vector3 axis = new Vector3(0, 0, 1);
+                shotLoc.transform.RotateAround(point, axis, -3);
+            }
 
-        if (Input.GetKeyDown(KeyCode.Period) && ballCount > 0)
-        {
-            ballClone = Instantiate(ball, shotLoc.position, shotLoc.rotation) as GameObject;
-            ballClone.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
-            ballCount--;
+            if (Input.GetKeyDown(KeyCode.RightShift) && ballCount > 0)
+            {
+                ballClone = Instantiate(ball, shotLoc.position, shotLoc.rotation) as GameObject;
+                ballClone.GetComponent<Rigidbody2D>().AddForce(shotLoc.transform.up * shotStrength);
+                ballCount--;
+            }
         }
-
-        power.value = shotStrength;
     }
 
     private void OnCollisionEnter2D(Collision2D other)

@@ -17,6 +17,7 @@ public class StartSceneShootP1 : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        ballCount = 100;
     }
 
     // Update is called once per frame
@@ -25,13 +26,13 @@ public class StartSceneShootP1 : MonoBehaviour
         Vector3 point = new Vector3(player.transform.position.x, player.transform.position.y, 0);
         Vector3 axis = new Vector3(0, 0, 1);
 
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.V))
         {
             /*transform.Rotate(Vector3.forward);*/
             shotLoc.transform.RotateAround(point, axis, 5);
         }
 
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKey(KeyCode.N))
         {
             shotLoc.transform.RotateAround(point, axis, -5);
         }

@@ -6,29 +6,33 @@ using UnityEngine.UI;
 public class FallPlatform : MonoBehaviour
 {
     float timer;
-    float originalTime;
+    //float originalTime;
     bool playerOnPlatform;
 
     public GameObject platformTimer;
 
     Rigidbody2D rb;
-
+    float startSize;
     float difference;
+    float constant;
     Animator anim;
 
     void Awake()
     {
+        startSize = platformTimer.transform.localScale.x;
         rb = GetComponent<Rigidbody2D>();
-        timer = Random.Range(8, 14);
+        timer = 8;
     }
 
     void Start()
     {
+        //constant = timer /= startSize;
         anim = GetComponent<Animator>();
         rb.isKinematic = true;
         playerOnPlatform = false;
-        originalTime = timer;
-        difference = (Time.deltaTime/(timer / platformTimer.transform.localScale.x)/1.2f);
+        //originalTime = timer;
+        //difference = (0.016f / timer);
+
     }
 
     // Update is called once per frame
@@ -36,8 +40,7 @@ public class FallPlatform : MonoBehaviour
     {
         if (playerOnPlatform == true)
         {
-            float xScale = platformTimer.transform.localScale.x - difference;
-            platformTimer.transform.localScale = new Vector2(xScale, platformTimer.transform.localScale.y);
+            platformTimer.transform.localScale = new Vector2(platformTimer.transform.localScale.x - 0.00428f, platformTimer.transform.localScale.y);
 
             if (timer <= 0)
             {
