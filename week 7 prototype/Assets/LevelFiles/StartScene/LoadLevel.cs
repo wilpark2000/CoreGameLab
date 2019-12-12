@@ -625,6 +625,7 @@ public class LoadLevel : MonoBehaviour
     public void LoadTutorial()
     {
         Destroy(GameObject.Find("GameManager"));
+        Destroy(this.gameObject);
         DontDestroyOnLoad(playerOne.gameObject);
         DontDestroyOnLoad(playerTwo.gameObject);
         SceneManager.LoadScene("Tutorial");

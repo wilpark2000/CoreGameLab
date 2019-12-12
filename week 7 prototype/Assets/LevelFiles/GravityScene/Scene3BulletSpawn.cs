@@ -122,7 +122,7 @@ public class Scene3BulletSpawn : MonoBehaviour
                 bullet = Instantiate(bullets, new Vector2(xpos, ypos), transform.rotation);
                 bullet.GetComponent<Rigidbody2D>().gravityScale = -2;
                 xpos = Random.Range(-5.5f, 5.5f);
-                timer = Random.Range(6f, 8f);
+                timer = Random.Range(10f, 15f);
                 gravDecider = Random.Range(-1, 1);
                 yposDecider = Random.Range(-1, 1);
             }
@@ -132,7 +132,7 @@ public class Scene3BulletSpawn : MonoBehaviour
                 bullet = Instantiate(bullets, new Vector2(xpos, ypos2), transform.rotation);
                 bullet.GetComponent<Rigidbody2D>().gravityScale = 2;
                 xpos = Random.Range(-5.5f, 5.5f);
-                timer = Random.Range(5f, 7f);
+                timer = Random.Range(10f, 15f);
                 gravDecider = Random.Range(-1, 1);
                 yposDecider2 = Random.Range(-1, 1);
             }
